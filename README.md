@@ -18,6 +18,11 @@
 
 ## AI Feed structure
 
+- `src/main.py`: scraper die AI-domeinen verzamelt
+- `output/defender_indicators.csv`: MDE-compatible lijst
+- `.github/workflows/update.yml`: GitHub Actions workflow
+- `scripts/publish_to_defender.ps1`: upload script naar MDE via Graph API
+
 ```
 ai-blockfeed/
 ├─ data/
