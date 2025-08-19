@@ -1,0 +1,28 @@
+name: Update AI Blockfeed
+on:
+  schedule:
+    - cron: "5 4 * * *"   # dagelijks 04:05 UTC
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install deps
+        run: |
+          pip install requests beautifulsoup4 tldextract dnspython publicsuffix2
+      - name: Run scraper
+        run: python src/main.py
+      - name: Commit & push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "actions@github.com"
+          git add output/*.txt output/*.conf output/*.zone output/*.csv || true
+          git add output/domains.txt || true
+          git commit -m "update blockfeed" || echo "no changes"
+          git push
