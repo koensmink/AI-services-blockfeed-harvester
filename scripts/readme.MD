@@ -1,4 +1,4 @@
-## Azure AD App Registration (voor Defender API)
+## Azure AD App Registration
 
 Om het script `publish_to_defender.ps1` te gebruiken moet je een App Registration maken in Azure AD.
 
