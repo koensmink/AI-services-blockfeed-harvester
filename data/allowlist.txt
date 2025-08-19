@@ -1,1 +1,4 @@
-
+bing.com
+microsoft.com
+google.com
+google.nl
