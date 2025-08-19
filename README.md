@@ -1,12 +1,5 @@
-## AI Feed structure
-
-* Harvesters – verzamelen domeinen uit meerdere bronnen (AI-directories, Product Hunt, Certificate Transparency, GitHub topics, eigen logs).
-* Normalizer – domeinextractie, lowercasing, punycode → unicode, PSL (eTLD+1).
-* Classifiers – heuristic om te bepalen of iets (waarschijnlijk) een AI-dienst is (brand-lexicon, content-scan, CT-cert namen, trefwoorden).
-* Verifiers – DNS-resolve (A/AAAA/CNAME), optioneel HTTP-banner check.
-* Emitters – genereren lijstformaten voor je web content filter / DNS / proxy.
-* Policy – allowlist/denylist, categorieën (LLM chat, beeld, code-assist, API, model-hosting).
-
+## AI Feed structuur
+---
 - `src/main.py`: scraper die AI-domeinen verzamelt
 - `output/defender_indicators.csv`: MDE-compatible lijst
 - `.github/workflows/update.yml`: GitHub Actions workflow
