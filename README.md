@@ -40,3 +40,15 @@ ai-blockfeed/
 │  ├─ main.py
 └─ .github/workflows/update.yml
 ```
+
+## Intune/MDE Checklist
+
+- Zet **Network Protection** op *Block*
+- Implementeer **Web Content Filtering** via MDE
+- Koppel deze blocklist CSV aan je tenant via het script
+- Test met een paar AI-sites (bv. `chat.openai.com`)
+
+## Automatisering
+
+De GitHub Action draait elke dag en werkt automatisch de domeinlijst bij.
+
