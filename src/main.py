@@ -32,7 +32,6 @@ def http_get(url, timeout=15):
 def harvest_directories():
     """
     Scrape simpele AI directories en productpagina's als bron voor nieuwe domeinen.
-    Voeg gerust nieuwe URLs toe.
     """
     sources = [
         "https://theresanaiforthat.com/",
@@ -55,7 +54,7 @@ def harvest_directories():
 def harvest_crtsh(keywords=("ai","gpt","llm","claude","gemini","copilot","mistral","grok","perplexity","huggingface","stability","midjourney","replicate","cohere")):
     """
     Query crt.sh per keyword op CN/SAN. Simpele JSON endpoint.
-    NB: publiek rate-limited; in Actions prima met rustige pacing.
+    NB: publiek rate-limited;
     """
     found = set()
     for kw in keywords:
@@ -78,7 +77,6 @@ def harvest_crtsh(keywords=("ai","gpt","llm","claude","gemini","copilot","mistra
 def harvest_github_topics():
     """
     Heel eenvoudige scraper op GitHub topic pagina's om homepages te vinden.
-    Voor kwaliteit kun je later GitHub API met token gebruiken.
     """
     topics = ["chatgpt","llm","large-language-model","gpt","generative-ai","ai-assistant"]
     found = set()
