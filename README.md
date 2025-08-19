@@ -41,13 +41,5 @@ ai-blockfeed/
 │  └─ defender_indicators.csv
 ├─ src/
 │  ├─ main.py
-│  ├─ harvesters/
-│  │  ├─ directories.py
-│  │  ├─ crtsh.py
-│  │  └─ github_topics.py
-│  ├─ classify.py
-│  ├─ verify.py
-│  ├─ emitters.py
-│  └─ util.py
 └─ .github/workflows/update.yml
 ```
