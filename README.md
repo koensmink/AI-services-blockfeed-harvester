@@ -14,7 +14,7 @@
 * DNS RPZ (Bind/Unbound/PowerDNS) -> Importeer output/rpz.zone als policy-zone en zet actie op CNAME . (NXDOMAIN).
 * Pi-hole / AdGuard / OPNsense (pfBlockerNG) -> Voeg output/pi-hole.txt of pfblockerng.txt toe als custom list (HTTP-raw vanaf 	   	GitHub raw URL).
 * Squid/Proxy -> Include output/squid_acl.conf (of maak granularere url_regex op paths zoals /chat /gpt /gemini).
-* Microsoft Defender for Endpoint (Network Protection / Indicators) -> Importeer output/defender_indicators.csv als Custom Indicators (action “Alert” of “Block”).
+* Microsoft Defender for Endpoint (Network Protection / Indicators) -> Importeer output/defender_indicators.csv als Custom Indicators (action “Alert” of “Block”). <-- Watch out, beta yet due Microsoft / Bing URL in file
 
 ## AI Feed structure
 
