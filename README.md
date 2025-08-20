@@ -39,3 +39,11 @@ ai-blockfeed/
 
 De GitHub Action draait elke dag (04:05 AM) en werkt automatisch de domeinlijst bij.
 
+## Nieuwe functie die er (ooit) komen
+
+* Het automatisch uitfilteren van nieuws sites, blogs of reguliere sites die er voor zorgen dat er false positives optreden
+* Defender/Intune verbetering met autoamtisch toepassen van scoren (aanpasbaar) voor allow, warning en block state
+* Uitbreiden van searchbase 
+* Output formaat voor firewall regels in Windows (Defender)
+* Python code netjes maken
+
