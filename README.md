@@ -1,3 +1,7 @@
+laatste status scraper: [![Update AI Blockfeed](https://github.com/koensmink/AI-services-blockfeed-harvester/actions/workflows/update.yml/badge.svg?event=workflow_dispatch)](https://github.com/koensmink/AI-services-blockfeed-harvester/actions/workflows/update.yml)
+
+# Ai url scraper
+---
 Dit project houdt automatisch lijsten bij van AI-gerelateerde websites, sorteert ze (zo nodig) voor verschillende beveiligings-tools, en zorgt ervoor dat die lijsten dagelijks automatisch worden bijgewerkt en gepusht naar Microsoft Defender. Ideaal voor die willen beheren wat er op het netwerk geblokkeerd of toegestaan wordt — zonder zelf dagelijks handmatig in te grijpen.
 
 ## AI Feed structuur
@@ -10,11 +14,11 @@ De AI structuur van de folders in deze repo staan in het onderstaande overzicht 
 - `data/allowlist.txt` Domeinen die je nooit wilt blokkeren (bijv. bredere platformen google,bing,microsoft).
 - `data/denylist.txt` Handmatige toevoegingen/overrides.
 - `data/seed.txt` Uitbreidbaar; dit dekt de usual suspects.
-- `output/domains.txt` Raw format to use or do whatever you want. No mark-up. 
-- `output/rpz.zone` Bind/Unbound/PowerDNS -> importeer output/rpz.zone als policy-zone en zet actie op CNAME (NXDOMAIN).
-- `output/pi-hole.txt` Pi-hole / AdGuard / OPNsense -> Voeg output/pi-hole.txt toe als custom list (HTTP-raw vanaf GitHub raw URL).
-- `output/pfblockerng.txt` PfBlockerNG -> Voeg pfblockerng.txt toe als custom list (HTTP-raw vanaf GitHub raw URL). 
-- `output/squid_acl.conf` Squid/Proxy -> Include output/squid_acl.conf (of maak granularere url_regex op paths zoals /chat /gpt /gemini).
+- `output/domains.txt` Raw formaat om als universele bron te gebruiken. Geen layout. 
+- `output/rpz.zone` Bind/Unbound/PowerDNS importeer output/rpz.zone als policy-zone en zet actie op CNAME (NXDOMAIN).
+- `output/pi-hole.txt` Pi-hole / AdGuard / OPNsense Voeg output/pi-hole.txt toe als custom list (HTTP-raw vanaf GitHub raw URL).
+- `output/pfblockerng.txt` PfBlockerNG Voeg pfblockerng.txt toe als custom list (HTTP-raw vanaf GitHub raw URL). 
+- `output/squid_acl.conf` Squid/Proxy Include output/squid_acl.conf (of maak granularere url_regex op paths zoals /chat /gpt /gemini).
 - `output/defender_indicators.csv`: MDE-compatible lijst
 
 ```
@@ -42,6 +46,7 @@ De GitHub Action draait elke dag (04:05 AM) en werkt automatisch de domeinlijst 
 ## Nieuwe functie die er (ooit) komen
 
 * Het automatisch uitfilteren van nieuws sites, blogs of reguliere sites die er voor zorgen dat er false positives optreden
+* Workload verdelen en minder afhankelijk maken van workflows in github
 * Defender/Intune verbetering met autoamtisch toepassen van scoren (aanpasbaar) voor allow, warning en block state
 * Uitbreiden van searchbase 
 * Output formaat voor firewall regels in Windows (Defender)
