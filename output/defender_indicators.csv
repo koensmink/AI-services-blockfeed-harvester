@@ -6,7 +6,7 @@ Domain,anthropic.com,Alert,AI Domain Block,anthropic.com,Informational
 Domain,chatgpt.com,Alert,AI Domain Block,chatgpt.com,Informational
 Domain,claude.ai,Alert,AI Domain Block,claude.ai,Informational
 Domain,cohere.com,Alert,AI Domain Block,cohere.com,Informational
-Domain,garage-gpt.ch,Alert,AI Domain Block,garage-gpt.ch,Informational
+Domain,filtrix.ai,Alert,AI Domain Block,filtrix.ai,Informational
 Domain,h2o.ai,Alert,AI Domain Block,h2o.ai,Informational
 Domain,huggingface.co,Alert,AI Domain Block,huggingface.co,Informational
 Domain,lexilexi.ai,Alert,AI Domain Block,lexilexi.ai,Informational
@@ -14,11 +14,12 @@ Domain,memeclip.ai,Alert,AI Domain Block,memeclip.ai,Informational
 Domain,meta.ai,Alert,AI Domain Block,meta.ai,Informational
 Domain,midjourney.com,Alert,AI Domain Block,midjourney.com,Informational
 Domain,mistral.ai,Alert,AI Domain Block,mistral.ai,Informational
+Domain,nanobanana.ai,Alert,AI Domain Block,nanobanana.ai,Informational
+Domain,nanobananaart.ai,Alert,AI Domain Block,nanobananaart.ai,Informational
 Domain,noeffort.ai,Alert,AI Domain Block,noeffort.ai,Informational
 Domain,oaistatic.com,Alert,AI Domain Block,oaistatic.com,Informational
 Domain,openai.com,Alert,AI Domain Block,openai.com,Informational
 Domain,perplexity.ai,Alert,AI Domain Block,perplexity.ai,Informational
-Domain,promnest.com,Alert,AI Domain Block,promnest.com,Informational
 Domain,quickdata.ai,Alert,AI Domain Block,quickdata.ai,Informational
 Domain,redesignr.ai,Alert,AI Domain Block,redesignr.ai,Informational
 Domain,refont.ai,Alert,AI Domain Block,refont.ai,Informational

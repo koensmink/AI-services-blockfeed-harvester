@@ -5,7 +5,7 @@ anthropic.com
 chatgpt.com
 claude.ai
 cohere.com
-garage-gpt.ch
+filtrix.ai
 h2o.ai
 huggingface.co
 lexilexi.ai
@@ -13,11 +13,12 @@ memeclip.ai
 meta.ai
 midjourney.com
 mistral.ai
+nanobanana.ai
+nanobananaart.ai
 noeffort.ai
 oaistatic.com
 openai.com
 perplexity.ai
-promnest.com
 quickdata.ai
 redesignr.ai
 refont.ai
