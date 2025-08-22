@@ -6,6 +6,7 @@ chatgpt.com
 claude.ai
 cohere.com
 filtrix.ai
+garage-gpt.ch
 h2o.ai
 huggingface.co
 meta.ai
