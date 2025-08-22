@@ -1,0 +1,175 @@
+name: DNS Recon (stateless, secret URLs)
+
+on:
+  workflow_dispatch:
+    inputs:
+      # Bronnen voor domeinen (3 opties met onderstaande prioriteit):
+      # 1) 'domains' (plaintext)
+      # 2) 'publicDomainsUrl' (publiek)
+      # 3) 'useSecretDomainsUrl' = true -> secrets.DOMAINS_URL (+ opt. header)
+      domains:
+        description: "Domeinen (komma of newline-gescheiden). Leeg laten als je via URL wilt laden."
+        required: false
+        type: string
+      publicDomainsUrl:
+        description: "Publieke URL naar domeinen (één per regel). Leeg laten als je een secret URL gebruikt."
+        required: false
+        type: string
+      useSecretDomainsUrl:
+        description: "Domeinen laden via geheime URL (secrets.DOMAINS_URL)"
+        required: false
+        default: true
+        type: boolean
+
+      # Bronnen voor wordlist (zelfde prioriteit als hierboven):
+      wordlist:
+        description: "Optionele eigen wordlist (newline-gescheiden)."
+        required: false
+        type: string
+      publicWordlistUrl:
+        description: "Publieke URL naar wordlist (één per regel)."
+        required: false
+        type: string
+      useSecretWordlistUrl:
+        description: "Wordlist laden via geheime URL (secrets.WORDLIST_URL)"
+        required: false
+        default: false
+        type: boolean
+
+      resolvers:
+        description: "DNS resolvers (comma-separated)"
+        required: false
+        default: "1.1.1.1,8.8.8.8,9.9.9.9"
+        type: string
+      axfr:
+        description: "Probeer AXFR (zone transfer)"
+        required: false
+        default: false
+        type: boolean
+      includeAAAA:
+        description: "Neem IPv6 (AAAA) mee"
+        required: false
+        default: true
+        type: boolean
+      permutations:
+        description: "Hyphen/numeric permutaties proberen"
+        required: false
+        default: true
+        type: boolean
+      expandInfra:
+        description: "MX/NS targets meenemen (informatief)"
+        required: false
+        default: false
+        type: boolean
+      concurrency:
+        description: "Max gelijktijdige DNS queries"
+        required: false
+        default: "200"
+        type: string
+      timeout:
+        description: "DNS timeout (seconden)"
+        required: false
+        default: "4.0"
+        type: string
+      retries:
+        description: "Aantal retries per query"
+        required: false
+        default: "1"
+        type: string
+
+jobs:
+  dns-recon:
+    runs-on: self-hosted
+    # Secrets worden hier als env gezet (automatisch gemaskeerd in logs)
+    env:
+      DOMAINS_URL: ${{ secrets.DOMAINS_URL }}                # bv. presigned S3/Gist raw URL
+      WORDLIST_URL: ${{ secrets.WORDLIST_URL }}
+      DOMAINS_AUTH_HEADER: ${{ secrets.DOMAINS_AUTH_HEADER }}# optioneel, bv. "Authorization: Bearer <token>"
+      WORDLIST_AUTH_HEADER: ${{ secrets.WORDLIST_AUTH_HEADER }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          else
+            pip install "dnspython>=2.6.1,<3"
+          fi
+
+      - name: Prepare input files (domains & wordlist)
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p out
+
+          # ---------- DOMAINS ----------
+          # Prioriteit: inputs.domains > inputs.publicDomainsUrl > secrets.DOMAINS_URL (indien geactiveerd)
+          if [ -n "${{ inputs.domains }}" ]; then
+            printf "%s\n" "${{ inputs.domains }}" | tr ',' '\n' | sed 's/^[ \t]*//;s/[ \t]*$//' | sed '/^$/d' > domains.txt
+          elif [ -n "${{ inputs.publicDomainsUrl }}" ]; then
+            curl -fsSL --location "${{ inputs.publicDomainsUrl }}" -o domains.txt
+          elif [ "${{ inputs.useSecretDomainsUrl }}" = "true" ] && [ -n "${DOMAINS_URL:-}" ]; then
+            if [ -n "${DOMAINS_AUTH_HEADER:-}" ]; then
+              curl -fsSL --location -H "${DOMAINS_AUTH_HEADER}" "${DOMAINS_URL}" -o domains.txt
+            else
+              curl -fsSL --location "${DOMAINS_URL}" -o domains.txt
+            fi
+          else
+            echo "Geen domeinen opgegeven (inputs.domains / publicDomainsUrl / secrets.DOMAINS_URL)."
+            exit 1
+          fi
+
+          # Normaliseer en valideer domains.txt (één per regel)
+          sed -i 's/^[ \t]*//;s/[ \t]*$//' domains.txt
+          sed -i '/^$/d' domains.txt
+          echo "Domeinenbron klaar."
+
+          # ---------- WORDLIST ----------
+          # Prioriteit: inputs.wordlist > inputs.publicWordlistUrl > secrets.WORDLIST_URL (indien geactiveerd)
+          if [ -n "${{ inputs.wordlist }}" ]; then
+            printf "%s\n" "${{ inputs.wordlist }}" | sed 's/^[ \t]*//;s/[ \t]*$//' | sed '/^$/d' > wordlist.txt
+          elif [ -n "${{ inputs.publicWordlistUrl }}" ]; then
+            curl -fsSL --location "${{ inputs.publicWordlistUrl }}" -o wordlist.txt
+          elif [ "${{ inputs.useSecretWordlistUrl }}" = "true" ] && [ -n "${WORDLIST_URL:-}" ]; then
+            if [ -n "${WORDLIST_AUTH_HEADER:-}" ]; then
+              curl -fsSL --location -H "${WORDLIST_AUTH_HEADER}" "${WORDLIST_URL}" -o wordlist.txt
+            else
+              curl -fsSL --location "${WORDLIST_URL}" -o wordlist.txt
+            fi
+          else
+            # Lege wordlist is toegestaan (dan gebruikt het script de ingebouwde lijst)
+            : > wordlist.txt
+          fi
+
+          # Log NIET de inhoud of URL's (secrets zijn gemaskeerd, maar we vermijden extra output)
+          echo "Wordlistbron klaar."
+
+      - name: Run DNS recon
+        shell: bash
+        run: |
+          set -euo pipefail
+          FLAGS="--domains-file domains.txt --resolvers '${{ inputs.resolvers }}' --concurrency '${{ inputs.concurrency }}' --timeout '${{ inputs.timeout }}' --retries '${{ inputs.retries }}' --output-dir out --format both"
+          if [ "${{ inputs.axfr }}" = "true" ]; then FLAGS="$FLAGS --axfr"; fi
+          if [ "${{ inputs.includeAAAA }}" = "true" ]; then FLAGS="$FLAGS --include-aaaa"; fi
+          if [ "${{ inputs.permutations }}" = "true" ]; then FLAGS="$FLAGS --permutations"; fi
+          if [ "${{ inputs.expandInfra }}" = "true" ]; then FLAGS="$FLAGS --expand-infra"; fi
+          # gebruik wordlist.txt alleen als die inhoud heeft
+          if [ -s "wordlist.txt" ]; then FLAGS="$FLAGS --wordlist wordlist.txt"; fi
+          python dns_recon.py $FLAGS
+          echo "Klaar. Resultaten in ./out"
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: dns-recon-results
+          path: out
+          if-no-files-found: error
