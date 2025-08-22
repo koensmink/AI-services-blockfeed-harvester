@@ -9,8 +9,6 @@ Domain,cohere.com,Alert,AI Domain Block,cohere.com,Informational
 Domain,filtrix.ai,Alert,AI Domain Block,filtrix.ai,Informational
 Domain,h2o.ai,Alert,AI Domain Block,h2o.ai,Informational
 Domain,huggingface.co,Alert,AI Domain Block,huggingface.co,Informational
-Domain,lexilexi.ai,Alert,AI Domain Block,lexilexi.ai,Informational
-Domain,memeclip.ai,Alert,AI Domain Block,memeclip.ai,Informational
 Domain,meta.ai,Alert,AI Domain Block,meta.ai,Informational
 Domain,midjourney.com,Alert,AI Domain Block,midjourney.com,Informational
 Domain,mistral.ai,Alert,AI Domain Block,mistral.ai,Informational
@@ -22,7 +20,6 @@ Domain,openai.com,Alert,AI Domain Block,openai.com,Informational
 Domain,perplexity.ai,Alert,AI Domain Block,perplexity.ai,Informational
 Domain,quickdata.ai,Alert,AI Domain Block,quickdata.ai,Informational
 Domain,redesignr.ai,Alert,AI Domain Block,redesignr.ai,Informational
-Domain,refont.ai,Alert,AI Domain Block,refont.ai,Informational
 Domain,remio.ai,Alert,AI Domain Block,remio.ai,Informational
 Domain,replicate.com,Alert,AI Domain Block,replicate.com,Informational
 Domain,runwayml.com,Alert,AI Domain Block,runwayml.com,Informational

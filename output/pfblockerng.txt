@@ -8,8 +8,6 @@ cohere.com
 filtrix.ai
 h2o.ai
 huggingface.co
-lexilexi.ai
-memeclip.ai
 meta.ai
 midjourney.com
 mistral.ai
@@ -21,7 +19,6 @@ openai.com
 perplexity.ai
 quickdata.ai
 redesignr.ai
-refont.ai
 remio.ai
 replicate.com
 runwayml.com
