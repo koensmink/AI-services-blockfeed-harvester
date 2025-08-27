@@ -1,4 +1,4 @@
-laatste status scraper: [![Update AI Blockfeed](https://github.com/koensmink/AI-services-blockfeed-harvester/actions/workflows/update.yml/badge.svg?event=workflow_dispatch)](https://github.com/koensmink/AI-services-blockfeed-harvester/actions/workflows/update.yml)
+laatste status scraper: [![AI Blockfeed Harvester](https://github.com/koensmink/AI-services-blockfeed-harvester/actions/workflows/run-harvester.yml/badge.svg)](https://github.com/koensmink/AI-services-blockfeed-harvester/actions/workflows/run-harvester.yml)
 
 # Ai url scraper
 ---
@@ -38,7 +38,3 @@ ai-blockfeed/
 │  ├─ main.py
 └─ .github/workflows/update.yml
 ```
-
-## Automatisering
-
-De GitHub Action draait elke dag (04:05 AM) en werkt automatisch de domeinlijst bij.
