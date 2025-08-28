@@ -1,4 +1,4 @@
-import re, json, time, socket
+import re, time
 from pathlib import Path
 from collections import defaultdict
 
@@ -12,8 +12,9 @@ DATA = BASE / "data"
 OUT = BASE / "output"
 OUT.mkdir(parents=True, exist_ok=True)
 
-# ---------- Utils ----------
-PSL_CACHE = {}
+UA = {"User-Agent":"ai-blockfeed-intune/1.0"}
+
+# ---------------- Utils ----------------
 
 def e2ld(domain: str) -> str:
     ext = tldextract.extract(domain)
@@ -21,18 +22,34 @@ def e2ld(domain: str) -> str:
         return domain.lower()
     return f"{ext.domain}.{ext.suffix}".lower()
 
+_defresolver = dns.resolver.Resolver()
+_defresolver.lifetime = 3
+_defresolver.timeout = 3
+
+
+def resolvable(domain: str) -> bool:
+    try:
+        _defresolver.resolve(domain, "A")
+        return True
+    except Exception:
+        try:
+            _defresolver.resolve(domain, "AAAA")
+            return True
+        except Exception:
+            return False
+
+
+def http_get(url, timeout=15):
+    return requests.get(url, timeout=timeout, headers=UA)
+
+
 def domain_from_url(url: str) -> str | None:
     m = re.match(r"https?://([^/]+)", url)
     return m.group(1).split(":")[0].lower() if m else None
 
-def http_get(url, timeout=15):
-    return requests.get(url, timeout=timeout, headers={"User-Agent":"ai-blockfeed/1.0"})
+# ---------------- Harvesters ----------------
 
-# ---------- Harvesters ----------
 def harvest_directories():
-    """
-    Scrape simpele AI directories en productpagina's als bron voor nieuwe domeinen.
-    """
     sources = [
         "https://theresanaiforthat.com/",
         "https://www.producthunt.com/topics/artificial-intelligence",
@@ -51,18 +68,17 @@ def harvest_directories():
             continue
     return found
 
-def harvest_crtsh(keywords=("ai","gpt","llm","claude","gemini","copilot","mistral","grok","perplexity","huggingface","stability","midjourney","replicate","cohere")):
-    """
-    Query crt.sh per keyword op CN/SAN. Simpele JSON endpoint.
-    NB: publiek rate-limited;
-    """
+
+def harvest_crtsh(keywords=(
+    "ai","gpt","llm","claude","gemini","copilot","mistral","grok",
+    "perplexity","huggingface","stability","midjourney","replicate","cohere"
+)):
     found = set()
     for kw in keywords:
         try:
             r = http_get(f"https://crt.sh/?q={kw}&output=json")
-            if r.status_code != 200: 
-                time.sleep(2)
-                continue
+            if r.status_code != 200:
+                time.sleep(2); continue
             for row in r.json():
                 name_value = row.get("name_value","")
                 for cn in name_value.split("\n"):
@@ -70,14 +86,11 @@ def harvest_crtsh(keywords=("ai","gpt","llm","claude","gemini","copilot","mistra
                         found.add(cn.strip().lower())
             time.sleep(1.2)
         except Exception:
-            time.sleep(1)
-            continue
+            time.sleep(1); continue
     return found
 
+
 def harvest_github_topics():
-    """
-    Heel eenvoudige scraper op GitHub topic pagina's om homepages te vinden.
-    """
     topics = ["chatgpt","llm","large-language-model","gpt","generative-ai","ai-assistant"]
     found = set()
     for t in topics:
@@ -93,128 +106,126 @@ def harvest_github_topics():
             continue
     return found
 
-# ---------- Classifier ----------
+# ---------------- Classifier ----------------
+
 BRAND_KEYWORDS = [
-    # merknamen & generiek
-    "openai","chatgpt","oai","gpt","llm","anthropic","claude","gemini","copilot","mistral","perplexity",
-    "stability","sdxl","midjourney","runway","replicate","huggingface","x.ai","grok","cohere","meta ai",
-    "ai assistant","genai","rag","embedding","text-to-image","image generation","speech-to-text","tts api"
+    "openai","chatgpt","oai","gpt","llm","anthropic","claude","gemini",
+    "copilot","mistral","perplexity","stability","sdxl","midjourney","runway",
+    "replicate","huggingface","x.ai","grok","cohere","meta ai","genai","rag",
+    "embedding","text-to-image","speech-to-text","tts api","ai assistant"
 ]
+
 
 def score_domain(domain: str) -> float:
     score = 0.0
     d = domain.lower()
-    # basic heuristics
     if d.endswith(".ai"): score += 0.5
     for kw in ["ai","gpt","llm","rag","embed","genai"]:
         if kw in d: score += 0.3
-    # content sniff
     try:
         r = http_get("https://" + d)
-        txt = (r.text[:4000] or "").lower()
-        title = ""
-        m = re.search(r"<title>(.*?)</title>", txt, re.S)
-        if m: title = m.group(1)
-        bag = title + " " + txt
-        for kw in BRAND_KEYWORDS:
-            if kw in bag:
+        if r.ok:
+            txt = (r.text[:4000] or "").lower()
+            m = re.search(r"<title>(.*?)</title>", txt, re.S)
+            title = m.group(1) if m else ""
+            bag = title + " " + txt
+            for kw in BRAND_KEYWORDS:
+                if kw in bag: score += 0.2
+            if any(s in bag for s in ["api key","rest api","sdk","rate limit"]):
                 score += 0.2
-        # API-signalen
-        if any(s in bag for s in ["api key","rest api","sdk","rate limit"]):
-            score += 0.2
     except Exception:
         pass
     return min(score, 3.0)
 
-# ---------- Verify ----------
-def resolvable(domain: str) -> bool:
-    try:
-        dns.resolver.resolve(domain, "A", lifetime=3)
-        return True
-    except Exception:
-        try:
-            dns.resolver.resolve(domain, "AAAA", lifetime=3)
-            return True
-        except Exception:
-            return False
+# ---------------- Emitters ----------------
 
-# ---------- Emitters ----------
+def write(path: Path, content: str):
+    path.write_text(content + ("\n" if not content.endswith("\n") else ""), encoding="utf-8")
+
+
 def emit_plain(domains):
-    (OUT / "domains.txt").write_text("\n".join(sorted(domains)) + "\n")
+    write(OUT / "domains.txt", "\n".join(sorted(domains)))
+
 
 def emit_rpz(domains, zone="ai-block.local"):
     lines = [
-        f"$TTL 2h",
-        f"@   IN  SOA localhost. root.localhost. ( 1 1h 15m 30d 2h )",
-        f"    IN  NS  localhost.",
+        "$TTL 2h",
+        "@   IN  SOA localhost. root.localhost. ( 1 1h 15m 30d 2h )",
+        "    IN  NS  localhost.",
     ]
     for d in sorted(domains):
         lines.append(f"{d}. IN CNAME .")
-    (OUT / "rpz.zone").write_text("\n".join(lines) + "\n")
+    write(OUT / "rpz.zone", "\n".join(lines))
+
 
 def emit_pihole(domains):
-    # gravity adlist format
-    (OUT / "pi-hole.txt").write_text("\n".join(sorted(domains)) + "\n")
+    write(OUT / "pi-hole.txt", "\n".join(sorted(domains)))
+
 
 def emit_pfblockerng(domains):
-    # één domein per regel
-    (OUT / "pfblockerng.txt").write_text("\n".join(sorted(domains)) + "\n")
+    write(OUT / "pfblockerng.txt", "\n".join(sorted(domains)))
+
 
 def emit_squid_acl(domains):
-    # host_regex ACL (let op: brede domeinen kunnen collateral damage geven)
-    pats = [rf"\.{re.escape(d)}$" for d in sorted(domains)]
-    (OUT / "squid_acl.conf").write_text("acl ai_sites dstdomain " + " ".join(sorted(domains)) + "\nhttp_access deny ai_sites\n")
+    # Basale host block; voor Big Tech liever URL‐granulariteit
+    conf = "acl ai_sites dstdomain " + " ".join(sorted(domains)) + "\nhttp_access deny ai_sites\n"
+    write(OUT / "squid_acl.conf", conf)
 
-def emit_defender(domains):
-    """
-    Microsoft Defender custom indicators CSV.
-    Columns: IndicatorType,IndicatorValue,Action,Title,Description,Severity
+
+def emit_defender_csv(domains):
+    """CSV voor Custom Indicators (Domains) in Defender portal of API‐import.
+    Kolommen: IndicatorType,IndicatorValue,Action,Title,Description,Severity
     """
     rows = ["IndicatorType,IndicatorValue,Action,Title,Description,Severity"]
     for d in sorted(domains):
-        rows.append(f"Domain,{d},Alert,AI Domain Block,{d},Informational")
-    (OUT / "defender_indicators.csv").write_text("\n".join(rows) + "\n")
+        rows.append(f"Domain,{d},Block,AI Domain Block,{d},Informational")
+    write(OUT / "defender_indicators.csv", "\n".join(rows))
 
-# ---------- Main ----------
+# ---------------- Main ----------------
+
 def load_list(p: Path) -> set[str]:
-    return set(l.strip().lower() for l in p.read_text().splitlines() if l.strip() and not l.startswith("#"))
+    if not p.exists():
+        return set()
+    return set(l.strip().lower() for l in p.read_text(encoding="utf-8").splitlines() if l.strip() and not l.startswith("#"))
+
 
 def main():
     seed = load_list(DATA / "seed.txt")
-    allow = load_list(DATA / "allowlist.txt") if (DATA / "allowlist.txt").exists() else set()
-    deny = load_list(DATA / "denylist.txt") if (DATA / "denylist.txt").exists() else set()
+    allow = load_list(DATA / "allowlist.txt")
+    deny = load_list(DATA / "denylist.txt")
 
     candidates = set(seed)
-    # harvest
     candidates |= harvest_directories()
     candidates |= harvest_crtsh()
     candidates |= harvest_github_topics()
 
-    # normaliseren -> eTLD+1
+    # normaliseren naar eTLD+1
     normalized = set(e2ld(c) for c in candidates if "." in c)
 
-    # verify + classify
-    scored = []
+    # verify + score
+    final = set()
     for d in normalized:
-        if d in allow: 
+        if d in allow:
             continue
-        ok = resolvable(d)
-        s = score_domain(d) if ok else 0.0
-        if ok and (s >= 0.9 or d in deny or d in seed):
-            scored.append((d, s))
+        if not resolvable(d):
+            continue
+        s = 0.0
+        try:
+            s = score_domain(d)
+        except Exception:
+            s = 0.0
+        if (s >= 0.9) or (d in seed) or (d in deny):
+            final.add(d)
 
-    final = set(d for d, s in scored)
-    # policy
     final |= deny
     final -= allow
 
-    # outputs
     emit_plain(final)
     emit_rpz(final)
     emit_pihole(final)
     emit_pfblockerng(final)
     emit_squid_acl(final)
-    emit_defender(final)
+    emit_defender_csv(final)
 
     print(f"[+] Total domains: {len(final)}")
 
