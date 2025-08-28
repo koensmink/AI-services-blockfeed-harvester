@@ -1,33 +1,29 @@
-name: AI Blockfeed Harvester
+name: Update AI Blockfeed (Intune)
 
 on:
   schedule:
-    - cron: '0 8 * * *'   # elke dag om 08:00 UTC
-  workflow_dispatch:       
+    - cron: "5 4 * * *"   # dagelijks 04:05 UTC
+  workflow_dispatch:
 
 jobs:
-  harvester:
+  build:
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: write
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
-
-      - name: Install dependencies
+          python-version: "3.11"
+      - name: Install deps
         run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-
-      - name: Run harvester
+          pip install requests beautifulsoup4 tldextract dnspython
+      - name: Run scraper
         run: python src/main.py
-
-      - name: Upload output artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: blockfeed-output
-          path: output/ 
+      - name: Commit & push outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "actions@github.com"
+          git add output/* || true
+          git commit -m "update blockfeed" || echo "no changes"
+          git push
