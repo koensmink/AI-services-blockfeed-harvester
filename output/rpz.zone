@@ -1,1 +1,10 @@
-
+$TTL 2h
+@   IN  SOA localhost. root.localhost. ( 1 1h 15m 30d 2h )
+    IN  NS  localhost.
+filtrix.ai. IN CNAME .
+garage-gpt.ch. IN CNAME .
+h2o.ai. IN CNAME .
+nanobananaart.ai. IN CNAME .
+noeffort.ai. IN CNAME .
+rivalsee.com. IN CNAME .
+watermelon.ai. IN CNAME .
