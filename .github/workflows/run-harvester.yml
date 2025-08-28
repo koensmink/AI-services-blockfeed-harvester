@@ -1,11 +1,9 @@
 name: AI Blockfeed Harvester
 
 on:
-  push:
-    branches:
-      - main
   schedule:
-    - cron: '0 8 * * *' # elke dag om 08:00 UTC
+    - cron: '0 8 * * *'   # elke dag om 08:00 UTC
+  workflow_dispatch:       
 
 jobs:
   harvester:
@@ -14,24 +12,16 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          path: .  # Zorgt dat de repo direct in de root staat
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-
-      - name: Debug current directory
-        run: |
-          pwd
-          ls -R
+          pip install -r requirements.txt
 
       - name: Run harvester
         run: python src/main.py
@@ -40,4 +30,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: blockfeed-output
-          path: output/
+          path: output/ 
