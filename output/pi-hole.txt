@@ -7,6 +7,7 @@ garage-gpt.ch
 h2o.ai
 imini.com
 kie.ai
+maskara.ai
 notis.ai
 odysseygpt.ai
 regula.ai
