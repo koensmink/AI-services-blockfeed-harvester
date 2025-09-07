@@ -3,6 +3,7 @@ alaba.ai
 alex.ai
 angelcx.ai
 automatedtesting.ai
+chatplayground.ai
 comet.ai
 cospacegpt.ai
 flashpaper.ai
@@ -13,12 +14,12 @@ infinite.ai
 isso.ai
 kie.ai
 lucy.ai
+marketeam.ai
 maskara.ai
 matrix.ai
 name.ai
 niki.ai
 notis.ai
-odysseygpt.ai
 predicto.ai
 recall.ai
 regula.ai
@@ -29,4 +30,5 @@ sudo.ai
 vision.ai
 vk.ai
 watermelon.ai
+youart.ai
 z.ai
