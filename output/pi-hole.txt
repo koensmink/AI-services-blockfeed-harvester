@@ -4,9 +4,7 @@ automatedtesting.ai
 chatplayground.ai
 cospacegpt.ai
 flashpaper.ai
-garage-gpt.ch
 h2o.ai
-kie.ai
 marketeam.ai
 maskara.ai
 notis.ai
