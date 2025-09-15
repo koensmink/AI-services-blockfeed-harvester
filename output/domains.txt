@@ -3,15 +3,11 @@ aiscan24.com
 alaba.ai
 animon.ai
 chat4o.ai
-chatplayground.ai
 extruct.ai
-garage-gpt.ch
 h2o.ai
-marketeam.ai
 mypooldesigner.ai
 odysseygpt.ai
 remio.ai
 somake.ai
 stakly.dev
 watermelon.ai
-youart.ai
