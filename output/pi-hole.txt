@@ -6,6 +6,7 @@ chat4o.ai
 extruct.ai
 gptproto.com
 h2o.ai
+heyhelp.ai
 mypooldesigner.ai
 odysseygpt.ai
 somake.ai
