@@ -4,7 +4,6 @@ $TTL 2h
 alaba.ai. IN CNAME .
 developertoolkit.ai. IN CNAME .
 garage-gpt.ch. IN CNAME .
-gptproto.com. IN CNAME .
 h2o.ai. IN CNAME .
 heyhelp.ai. IN CNAME .
 nexa.ai. IN CNAME .
@@ -13,4 +12,3 @@ remio.ai. IN CNAME .
 stakly.dev. IN CNAME .
 watermelon.ai. IN CNAME .
 weesp.ai. IN CNAME .
-zoer.ai. IN CNAME .

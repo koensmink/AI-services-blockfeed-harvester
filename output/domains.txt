@@ -1,7 +1,6 @@
 alaba.ai
 developertoolkit.ai
 garage-gpt.ch
-gptproto.com
 h2o.ai
 heyhelp.ai
 nexa.ai
@@ -10,4 +9,3 @@ remio.ai
 stakly.dev
 watermelon.ai
 weesp.ai
-zoer.ai

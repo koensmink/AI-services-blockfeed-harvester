@@ -2,7 +2,6 @@ IndicatorType,IndicatorValue,Action,Title,Description,Severity
 Domain,alaba.ai,Block,AI Domain Block,alaba.ai,Informational
 Domain,developertoolkit.ai,Block,AI Domain Block,developertoolkit.ai,Informational
 Domain,garage-gpt.ch,Block,AI Domain Block,garage-gpt.ch,Informational
-Domain,gptproto.com,Block,AI Domain Block,gptproto.com,Informational
 Domain,h2o.ai,Block,AI Domain Block,h2o.ai,Informational
 Domain,heyhelp.ai,Block,AI Domain Block,heyhelp.ai,Informational
 Domain,nexa.ai,Block,AI Domain Block,nexa.ai,Informational
@@ -11,4 +10,3 @@ Domain,remio.ai,Block,AI Domain Block,remio.ai,Informational
 Domain,stakly.dev,Block,AI Domain Block,stakly.dev,Informational
 Domain,watermelon.ai,Block,AI Domain Block,watermelon.ai,Informational
 Domain,weesp.ai,Block,AI Domain Block,weesp.ai,Informational
-Domain,zoer.ai,Block,AI Domain Block,zoer.ai,Informational
