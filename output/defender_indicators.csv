@@ -1,7 +1,10 @@
 IndicatorType,IndicatorValue,Action,Title,Description,Severity
 Domain,alaba.ai,Block,AI Domain Block,alaba.ai,Informational
+Domain,chatplayground.ai,Block,AI Domain Block,chatplayground.ai,Informational
 Domain,developertoolkit.ai,Block,AI Domain Block,developertoolkit.ai,Informational
+Domain,garage-gpt.ch,Block,AI Domain Block,garage-gpt.ch,Informational
 Domain,h2o.ai,Block,AI Domain Block,h2o.ai,Informational
+Domain,hathr.ai,Block,AI Domain Block,hathr.ai,Informational
 Domain,nexa.ai,Block,AI Domain Block,nexa.ai,Informational
 Domain,redesignr.ai,Block,AI Domain Block,redesignr.ai,Informational
 Domain,remio.ai,Block,AI Domain Block,remio.ai,Informational

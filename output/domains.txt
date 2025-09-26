@@ -1,6 +1,9 @@
 alaba.ai
+chatplayground.ai
 developertoolkit.ai
+garage-gpt.ch
 h2o.ai
+hathr.ai
 nexa.ai
 redesignr.ai
 remio.ai
