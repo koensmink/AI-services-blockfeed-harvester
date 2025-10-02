@@ -2,6 +2,7 @@
 acumen.ai
 alaba.ai
 ava.ai
+chatfeatured.com
 chatplayground.ai
 comet.ai
 fs.ai
@@ -25,6 +26,5 @@ socrates.ai
 sudo.ai
 vision.ai
 vivgrid.com
-vk.ai
 watermelon.ai
 z.ai

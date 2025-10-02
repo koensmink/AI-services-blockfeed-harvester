@@ -5,6 +5,7 @@ $TTL 2h
 acumen.ai. IN CNAME .
 alaba.ai. IN CNAME .
 ava.ai. IN CNAME .
+chatfeatured.com. IN CNAME .
 chatplayground.ai. IN CNAME .
 comet.ai. IN CNAME .
 fs.ai. IN CNAME .
@@ -28,6 +29,5 @@ socrates.ai. IN CNAME .
 sudo.ai. IN CNAME .
 vision.ai. IN CNAME .
 vivgrid.com. IN CNAME .
-vk.ai. IN CNAME .
 watermelon.ai. IN CNAME .
 z.ai. IN CNAME .
