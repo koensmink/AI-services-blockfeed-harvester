@@ -2,8 +2,10 @@ $TTL 2h
 @   IN  SOA localhost. root.localhost. ( 1 1h 15m 30d 2h )
     IN  NS  localhost.
 alaba.ai. IN CNAME .
+ascn.ai. IN CNAME .
 chatfeatured.com. IN CNAME .
 chatplayground.ai. IN CNAME .
+chatronix.ai. IN CNAME .
 h2o.ai. IN CNAME .
 humanizey.ai. IN CNAME .
 intervo.ai. IN CNAME .
