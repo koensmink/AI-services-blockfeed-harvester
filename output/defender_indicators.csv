@@ -1,15 +1,14 @@
 IndicatorType,IndicatorValue,Action,Title,Description,Severity
 Domain,alaba.ai,Block,AI Domain Block,alaba.ai,Informational
-Domain,ascn.ai,Block,AI Domain Block,ascn.ai,Informational
 Domain,chatfeatured.com,Block,AI Domain Block,chatfeatured.com,Informational
 Domain,chatplayground.ai,Block,AI Domain Block,chatplayground.ai,Informational
 Domain,chatronix.ai,Block,AI Domain Block,chatronix.ai,Informational
+Domain,garage-gpt.ch,Block,AI Domain Block,garage-gpt.ch,Informational
 Domain,h2o.ai,Block,AI Domain Block,h2o.ai,Informational
 Domain,humanizey.ai,Block,AI Domain Block,humanizey.ai,Informational
 Domain,intervo.ai,Block,AI Domain Block,intervo.ai,Informational
 Domain,redesignr.ai,Block,AI Domain Block,redesignr.ai,Informational
 Domain,remio.ai,Block,AI Domain Block,remio.ai,Informational
-Domain,rivervoice.ai,Block,AI Domain Block,rivervoice.ai,Informational
 Domain,scalerx.ai,Block,AI Domain Block,scalerx.ai,Informational
 Domain,vivgrid.com,Block,AI Domain Block,vivgrid.com,Informational
 Domain,watermelon.ai,Block,AI Domain Block,watermelon.ai,Informational
