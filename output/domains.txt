@@ -1,10 +1,8 @@
 51p.ai
 acumen.ai
 alaba.ai
-ascn.ai
 ava.ai
 chatplayground.ai
-chatronix.ai
 comet.ai
 extruct.ai
 fs.ai
@@ -14,9 +12,11 @@ h2o.ai
 isso.ai
 lucy.ai
 matrix.ai
+my.ai
 name.ai
 niki.ai
 notis.ai
+odysseygpt.ai
 predicto.ai
 recall.ai
 redesignr.ai
