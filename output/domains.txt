@@ -1,8 +1,8 @@
 alaba.ai
+brice.ai
 chatplayground.ai
 dechecker.ai
 devlo.ai
-extruct.ai
 garage-gpt.ch
 h2o.ai
 notis.ai
