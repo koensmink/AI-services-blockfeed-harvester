@@ -1,11 +1,10 @@
 alaba.ai
 brice.ai
 chatplayground.ai
+codeask.ai
 dechecker.ai
 devlo.ai
-garage-gpt.ch
 h2o.ai
-notis.ai
 odysseygpt.ai
 onemoreshot.ai
 questie.ai
