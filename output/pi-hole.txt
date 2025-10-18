@@ -5,9 +5,10 @@ codeask.ai
 dechecker.ai
 devlo.ai
 h2o.ai
-odysseygpt.ai
+karpathy.ai
 onemoreshot.ai
 questie.ai
 redesignr.ai
 remio.ai
+storycraftr.ai
 watermelon.ai
