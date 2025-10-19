@@ -4,11 +4,14 @@ chatplayground.ai
 codeask.ai
 dechecker.ai
 devlo.ai
+findanomaly.ai
 h2o.ai
 karpathy.ai
-onemoreshot.ai
+odysseygpt.ai
 questie.ai
 redesignr.ai
 remio.ai
 storycraftr.ai
+tinq.ai
+voxdeck.ai
 watermelon.ai
