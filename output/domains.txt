@@ -7,11 +7,11 @@ devlo.ai
 findanomaly.ai
 h2o.ai
 karpathy.ai
+lightsite.ai
 odysseygpt.ai
 questie.ai
 redesignr.ai
 remio.ai
 storycraftr.ai
-tinq.ai
 voxdeck.ai
 watermelon.ai
