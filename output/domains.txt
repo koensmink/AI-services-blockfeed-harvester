@@ -2,14 +2,12 @@ alaba.ai
 brice.ai
 chatplayground.ai
 codeask.ai
-dechecker.ai
 devlo.ai
 findanomaly.ai
 h2o.ai
 karpathy.ai
 lightsite.ai
 odysseygpt.ai
-questie.ai
 redesignr.ai
 remio.ai
 storycraftr.ai
