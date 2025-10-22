@@ -2,14 +2,16 @@ alaba.ai
 brice.ai
 chatplayground.ai
 codeask.ai
-devlo.ai
 findanomaly.ai
 h2o.ai
+heyscottie.ai
 karpathy.ai
+koox.ai
 lightsite.ai
 odysseygpt.ai
 redesignr.ai
 remio.ai
+sellinger.ai
 storycraftr.ai
 voxdeck.ai
 watermelon.ai
