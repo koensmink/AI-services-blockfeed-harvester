@@ -1,13 +1,13 @@
 alaba.ai
-brice.ai
-chatplayground.ai
 codeask.ai
 findanomaly.ai
+gpthumanizer.ai
 h2o.ai
 heyscottie.ai
 karpathy.ai
 koox.ai
 lightsite.ai
+notis.ai
 odysseygpt.ai
 redesignr.ai
 remio.ai
