@@ -3,7 +3,7 @@ acumen.ai
 alaba.ai
 ava.ai
 averi.ai
-codeask.ai
+fastrouter.ai
 filtrix.ai
 findanomaly.ai
 fs.ai
@@ -13,12 +13,11 @@ gpthumanizer.ai
 h2o.ai
 heyscottie.ai
 isso.ai
-karpathy.ai
 koox.ai
 lightsite.ai
 lucy.ai
 matrix.ai
-my.ai
+mistral.ai
 name.ai
 niki.ai
 notis.ai
@@ -32,7 +31,6 @@ socrates.ai
 storycraftr.ai
 sudo.ai
 vision.ai
-vk.ai
 voxdeck.ai
 watermelon.ai
 z.ai
