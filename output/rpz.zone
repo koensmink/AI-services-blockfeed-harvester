@@ -3,17 +3,17 @@ $TTL 2h
     IN  NS  localhost.
 alaba.ai. IN CNAME .
 averi.ai. IN CNAME .
+coursebox.ai. IN CNAME .
 fastrouter.ai. IN CNAME .
 filtrix.ai. IN CNAME .
 gpthumanizer.ai. IN CNAME .
 h2o.ai. IN CNAME .
 heyscottie.ai. IN CNAME .
 intochat.ai. IN CNAME .
-koox.ai. IN CNAME .
 mistral.ai. IN CNAME .
 notis.ai. IN CNAME .
 redesignr.ai. IN CNAME .
-sellinger.ai. IN CNAME .
+remio.ai. IN CNAME .
 viddo.ai. IN CNAME .
 videoideas.ai. IN CNAME .
 voxdeck.ai. IN CNAME .
