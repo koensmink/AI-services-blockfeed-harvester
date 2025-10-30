@@ -3,9 +3,9 @@ averi.ai
 coursebox.ai
 fastrouter.ai
 filtrix.ai
+garage-gpt.ch
 gpthumanizer.ai
 h2o.ai
-heyscottie.ai
 intochat.ai
 mistral.ai
 notis.ai
