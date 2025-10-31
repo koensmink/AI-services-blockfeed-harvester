@@ -1,18 +1,17 @@
 IndicatorType,IndicatorValue,Action,Title,Description,Severity
 Domain,alaba.ai,Block,AI Domain Block,alaba.ai,Informational
-Domain,averi.ai,Block,AI Domain Block,averi.ai,Informational
 Domain,coursebox.ai,Block,AI Domain Block,coursebox.ai,Informational
 Domain,fastrouter.ai,Block,AI Domain Block,fastrouter.ai,Informational
-Domain,filtrix.ai,Block,AI Domain Block,filtrix.ai,Informational
 Domain,garage-gpt.ch,Block,AI Domain Block,garage-gpt.ch,Informational
-Domain,gpthumanizer.ai,Block,AI Domain Block,gpthumanizer.ai,Informational
 Domain,h2o.ai,Block,AI Domain Block,h2o.ai,Informational
 Domain,intochat.ai,Block,AI Domain Block,intochat.ai,Informational
+Domain,karavideo.ai,Block,AI Domain Block,karavideo.ai,Informational
 Domain,mistral.ai,Block,AI Domain Block,mistral.ai,Informational
 Domain,notis.ai,Block,AI Domain Block,notis.ai,Informational
+Domain,promtist.ai,Block,AI Domain Block,promtist.ai,Informational
+Domain,querybox.ai,Block,AI Domain Block,querybox.ai,Informational
 Domain,redesignr.ai,Block,AI Domain Block,redesignr.ai,Informational
 Domain,remio.ai,Block,AI Domain Block,remio.ai,Informational
-Domain,viddo.ai,Block,AI Domain Block,viddo.ai,Informational
 Domain,videoideas.ai,Block,AI Domain Block,videoideas.ai,Informational
 Domain,voxdeck.ai,Block,AI Domain Block,voxdeck.ai,Informational
 Domain,watermelon.ai,Block,AI Domain Block,watermelon.ai,Informational
