@@ -2,12 +2,11 @@ alaba.ai
 coursebox.ai
 garage-gpt.ch
 h2o.ai
-intochat.ai
 karavideo.ai
+learnplace.ai
 notis.ai
 promtist.ai
 querybox.ai
-redesignr.ai
 remio.ai
 viddo.ai
 videoideas.ai
