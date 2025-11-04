@@ -1,7 +1,9 @@
 alaba.ai
 coursebox.ai
+docuit.ai
 garage-gpt.ch
 h2o.ai
+helloday.ai
 karavideo.ai
 learnplace.ai
 notis.ai
