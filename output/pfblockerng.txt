@@ -4,7 +4,9 @@ alaba.ai
 ava.ai
 charlemagnelabs.ai
 chatplayground.ai
+comet.ai
 fs.ai
+garage-gpt.ch
 h2o.ai
 helloday.ai
 isso.ai
@@ -16,7 +18,6 @@ modelred.ai
 name.ai
 niki.ai
 notis.ai
-novaflick.ai
 predicto.ai
 promtist.ai
 querybox.ai
