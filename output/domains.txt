@@ -4,13 +4,11 @@ alaba.ai
 ava.ai
 charlemagnelabs.ai
 chatplayground.ai
-comet.ai
 fs.ai
 garage-gpt.ch
 h2o.ai
 helloday.ai
 isso.ai
-karavideo.ai
 learnplace.ai
 lucy.ai
 matrix.ai
@@ -19,8 +17,6 @@ name.ai
 niki.ai
 notis.ai
 predicto.ai
-promtist.ai
-querybox.ai
 recall.ai
 remio.ai
 socrates.ai
