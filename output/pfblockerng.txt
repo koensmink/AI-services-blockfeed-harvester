@@ -22,6 +22,7 @@ remio.ai
 socrates.ai
 sudo.ai
 transcribetotext.ai
+undetectedgpt.ai
 viddo.ai
 videoideas.ai
 vision.ai
