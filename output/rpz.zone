@@ -2,7 +2,6 @@ $TTL 2h
 @   IN  SOA localhost. root.localhost. ( 1 1h 15m 30d 2h )
     IN  NS  localhost.
 51p.ai. IN CNAME .
-acumen.ai. IN CNAME .
 alaba.ai. IN CNAME .
 ava.ai. IN CNAME .
 charlemagnelabs.ai. IN CNAME .

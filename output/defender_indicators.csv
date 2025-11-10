@@ -1,6 +1,5 @@
 IndicatorType,IndicatorValue,Action,Title,Description,Severity
 Domain,51p.ai,Block,AI Domain Block,51p.ai,Informational
-Domain,acumen.ai,Block,AI Domain Block,acumen.ai,Informational
 Domain,alaba.ai,Block,AI Domain Block,alaba.ai,Informational
 Domain,ava.ai,Block,AI Domain Block,ava.ai,Informational
 Domain,charlemagnelabs.ai,Block,AI Domain Block,charlemagnelabs.ai,Informational
