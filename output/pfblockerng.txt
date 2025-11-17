@@ -1,6 +1,7 @@
 aiaigenerator.ai
 aimyads.ai
 alaba.ai
+chatplayground.ai
 devlo.ai
 garage-gpt.ch
 h2o.ai
@@ -11,7 +12,6 @@ monobot.ai
 notis.ai
 remio.ai
 trytenki.ai
-undetectedgpt.ai
 videoideas.ai
 voxdeck.ai
 watermelon.ai

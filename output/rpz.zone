@@ -4,6 +4,7 @@ $TTL 2h
 aiaigenerator.ai. IN CNAME .
 aimyads.ai. IN CNAME .
 alaba.ai. IN CNAME .
+chatplayground.ai. IN CNAME .
 devlo.ai. IN CNAME .
 garage-gpt.ch. IN CNAME .
 h2o.ai. IN CNAME .
@@ -14,7 +15,6 @@ monobot.ai. IN CNAME .
 notis.ai. IN CNAME .
 remio.ai. IN CNAME .
 trytenki.ai. IN CNAME .
-undetectedgpt.ai. IN CNAME .
 videoideas.ai. IN CNAME .
 voxdeck.ai. IN CNAME .
 watermelon.ai. IN CNAME .
