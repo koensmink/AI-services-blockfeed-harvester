@@ -2,6 +2,7 @@ $TTL 2h
 @   IN  SOA localhost. root.localhost. ( 1 1h 15m 30d 2h )
     IN  NS  localhost.
 aiaigenerator.ai. IN CNAME .
+aident.ai. IN CNAME .
 aimyads.ai. IN CNAME .
 alaba.ai. IN CNAME .
 chatplayground.ai. IN CNAME .
@@ -9,9 +10,7 @@ devlo.ai. IN CNAME .
 garage-gpt.ch. IN CNAME .
 h2o.ai. IN CNAME .
 learnplace.ai. IN CNAME .
-liteapi.ai. IN CNAME .
 memorr.ai. IN CNAME .
-monobot.ai. IN CNAME .
 notis.ai. IN CNAME .
 remio.ai. IN CNAME .
 trytenki.ai. IN CNAME .
