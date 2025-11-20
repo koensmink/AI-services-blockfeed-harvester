@@ -1,14 +1,14 @@
 aident.ai
-aimyads.ai
 alaba.ai
 chatplayground.ai
 dealism.ai
 h2o.ai
+hypertxt.ai
 leania.ai
-learnplace.ai
 liteapi.ai
 notis.ai
 remio.ai
+tldrly.ai
 trytenki.ai
 videoideas.ai
 voxdeck.ai

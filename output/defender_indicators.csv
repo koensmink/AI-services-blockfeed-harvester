@@ -1,15 +1,15 @@
 IndicatorType,IndicatorValue,Action,Title,Description,Severity
 Domain,aident.ai,Block,AI Domain Block,aident.ai,Informational
-Domain,aimyads.ai,Block,AI Domain Block,aimyads.ai,Informational
 Domain,alaba.ai,Block,AI Domain Block,alaba.ai,Informational
 Domain,chatplayground.ai,Block,AI Domain Block,chatplayground.ai,Informational
 Domain,dealism.ai,Block,AI Domain Block,dealism.ai,Informational
 Domain,h2o.ai,Block,AI Domain Block,h2o.ai,Informational
+Domain,hypertxt.ai,Block,AI Domain Block,hypertxt.ai,Informational
 Domain,leania.ai,Block,AI Domain Block,leania.ai,Informational
-Domain,learnplace.ai,Block,AI Domain Block,learnplace.ai,Informational
 Domain,liteapi.ai,Block,AI Domain Block,liteapi.ai,Informational
 Domain,notis.ai,Block,AI Domain Block,notis.ai,Informational
 Domain,remio.ai,Block,AI Domain Block,remio.ai,Informational
+Domain,tldrly.ai,Block,AI Domain Block,tldrly.ai,Informational
 Domain,trytenki.ai,Block,AI Domain Block,trytenki.ai,Informational
 Domain,videoideas.ai,Block,AI Domain Block,videoideas.ai,Informational
 Domain,voxdeck.ai,Block,AI Domain Block,voxdeck.ai,Informational
