@@ -1,7 +1,6 @@
 IndicatorType,IndicatorValue,Action,Title,Description,Severity
 Domain,aident.ai,Block,AI Domain Block,aident.ai,Informational
 Domain,alaba.ai,Block,AI Domain Block,alaba.ai,Informational
-Domain,chatplayground.ai,Block,AI Domain Block,chatplayground.ai,Informational
 Domain,dealism.ai,Block,AI Domain Block,dealism.ai,Informational
 Domain,h2o.ai,Block,AI Domain Block,h2o.ai,Informational
 Domain,hypertxt.ai,Block,AI Domain Block,hypertxt.ai,Informational

@@ -3,7 +3,6 @@ $TTL 2h
     IN  NS  localhost.
 aident.ai. IN CNAME .
 alaba.ai. IN CNAME .
-chatplayground.ai. IN CNAME .
 dealism.ai. IN CNAME .
 h2o.ai. IN CNAME .
 hypertxt.ai. IN CNAME .

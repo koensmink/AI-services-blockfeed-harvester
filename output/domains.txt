@@ -1,6 +1,5 @@
 aident.ai
 alaba.ai
-chatplayground.ai
 dealism.ai
 h2o.ai
 hypertxt.ai
