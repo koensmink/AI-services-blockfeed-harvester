@@ -1,6 +1,7 @@
 aident.ai
 alaba.ai
 dealism.ai
+garage-gpt.ch
 h2o.ai
 hypertxt.ai
 leania.ai
