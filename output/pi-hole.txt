@@ -3,6 +3,7 @@ acumen.ai
 aident.ai
 alaba.ai
 ava.ai
+chatplayground.ai
 dealism.ai
 garage-gpt.ch
 h2o.ai
@@ -18,9 +19,9 @@ remio.ai
 socrates.ai
 sudo.ai
 tldrly.ai
-trytenki.ai
 videoideas.ai
 vision.ai
+vk.ai
 voxdeck.ai
 watermelon.ai
 z.ai
