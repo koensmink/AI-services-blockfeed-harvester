@@ -3,13 +3,14 @@ $TTL 2h
     IN  NS  localhost.
 51p.ai. IN CNAME .
 acumen.ai. IN CNAME .
-aident.ai. IN CNAME .
 alaba.ai. IN CNAME .
 ava.ai. IN CNAME .
 chatplayground.ai. IN CNAME .
 dealism.ai. IN CNAME .
 garage-gpt.ch. IN CNAME .
+google.com.ai. IN CNAME .
 h2o.ai. IN CNAME .
+halomate.ai. IN CNAME .
 hypertxt.ai. IN CNAME .
 leania.ai. IN CNAME .
 lucy.ai. IN CNAME .
@@ -19,12 +20,15 @@ notis.ai. IN CNAME .
 predicto.ai. IN CNAME .
 recall.ai. IN CNAME .
 remio.ai. IN CNAME .
+sintra.ai. IN CNAME .
 socrates.ai. IN CNAME .
 sudo.ai. IN CNAME .
 tldrly.ai. IN CNAME .
+trytenki.ai. IN CNAME .
 videoideas.ai. IN CNAME .
 vision.ai. IN CNAME .
 vk.ai. IN CNAME .
+voicepod.ai. IN CNAME .
 voxdeck.ai. IN CNAME .
 watermelon.ai. IN CNAME .
 z.ai. IN CNAME .
