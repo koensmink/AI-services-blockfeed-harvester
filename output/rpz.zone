@@ -5,7 +5,6 @@ $TTL 2h
 acumen.ai. IN CNAME .
 alaba.ai. IN CNAME .
 ava.ai. IN CNAME .
-chatplayground.ai. IN CNAME .
 dealnavigator.ai. IN CNAME .
 everfind.ai. IN CNAME .
 garage-gpt.ch. IN CNAME .
@@ -31,6 +30,7 @@ synpix.ai. IN CNAME .
 trackmybusiness.ai. IN CNAME .
 trytenki.ai. IN CNAME .
 turboscription.ai. IN CNAME .
+vibe3d.ai. IN CNAME .
 videoideas.ai. IN CNAME .
 vision.ai. IN CNAME .
 vk.ai. IN CNAME .

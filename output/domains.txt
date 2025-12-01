@@ -2,7 +2,6 @@
 acumen.ai
 alaba.ai
 ava.ai
-chatplayground.ai
 dealnavigator.ai
 everfind.ai
 garage-gpt.ch
@@ -28,6 +27,7 @@ synpix.ai
 trackmybusiness.ai
 trytenki.ai
 turboscription.ai
+vibe3d.ai
 videoideas.ai
 vision.ai
 vk.ai
