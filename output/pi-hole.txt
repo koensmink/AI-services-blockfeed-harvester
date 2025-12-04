@@ -1,6 +1,8 @@
 alaba.ai
+apimart.ai
 dealnavigator.ai
 dreampages.ai
+fengshuibedroom.ai
 h2o.ai
 leania.ai
 lumeflow.ai
@@ -10,6 +12,7 @@ poyo.ai
 rankplusplus.com
 remio.ai
 synpix.ai
+tendem.ai
 trackmybusiness.ai
 vibe3d.ai
 videoideas.ai

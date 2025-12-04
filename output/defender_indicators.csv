@@ -1,7 +1,9 @@
 IndicatorType,IndicatorValue,Action,Title,Description,Severity
 Domain,alaba.ai,Block,AI Domain Block,alaba.ai,Informational
+Domain,apimart.ai,Block,AI Domain Block,apimart.ai,Informational
 Domain,dealnavigator.ai,Block,AI Domain Block,dealnavigator.ai,Informational
 Domain,dreampages.ai,Block,AI Domain Block,dreampages.ai,Informational
+Domain,fengshuibedroom.ai,Block,AI Domain Block,fengshuibedroom.ai,Informational
 Domain,h2o.ai,Block,AI Domain Block,h2o.ai,Informational
 Domain,leania.ai,Block,AI Domain Block,leania.ai,Informational
 Domain,lumeflow.ai,Block,AI Domain Block,lumeflow.ai,Informational
@@ -11,6 +13,7 @@ Domain,poyo.ai,Block,AI Domain Block,poyo.ai,Informational
 Domain,rankplusplus.com,Block,AI Domain Block,rankplusplus.com,Informational
 Domain,remio.ai,Block,AI Domain Block,remio.ai,Informational
 Domain,synpix.ai,Block,AI Domain Block,synpix.ai,Informational
+Domain,tendem.ai,Block,AI Domain Block,tendem.ai,Informational
 Domain,trackmybusiness.ai,Block,AI Domain Block,trackmybusiness.ai,Informational
 Domain,vibe3d.ai,Block,AI Domain Block,vibe3d.ai,Informational
 Domain,videoideas.ai,Block,AI Domain Block,videoideas.ai,Informational
