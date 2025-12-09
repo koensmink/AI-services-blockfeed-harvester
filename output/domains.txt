@@ -1,12 +1,12 @@
 alaba.ai
 apimart.ai
 batchvideo.ai
+chatplayground.ai
 dreamlux.ai
 dreampages.ai
 fengshuibedroom.ai
 garage-gpt.ch
 h2o.ai
-leania.ai
 mistral.ai
 notis.ai
 remio.ai
