@@ -1,15 +1,18 @@
 IndicatorType,IndicatorValue,Action,Title,Description,Severity
 Domain,alaba.ai,Block,AI Domain Block,alaba.ai,Informational
 Domain,batchvideo.ai,Block,AI Domain Block,batchvideo.ai,Informational
-Domain,chatplayground.ai,Block,AI Domain Block,chatplayground.ai,Informational
+Domain,dreamlux.ai,Block,AI Domain Block,dreamlux.ai,Informational
 Domain,h2o.ai,Block,AI Domain Block,h2o.ai,Informational
 Domain,joineve.ai,Block,AI Domain Block,joineve.ai,Informational
+Domain,nautex.ai,Block,AI Domain Block,nautex.ai,Informational
 Domain,notis.ai,Block,AI Domain Block,notis.ai,Informational
 Domain,remio.ai,Block,AI Domain Block,remio.ai,Informational
 Domain,search-visibility.ai,Block,AI Domain Block,search-visibility.ai,Informational
+Domain,seoforge.ai,Block,AI Domain Block,seoforge.ai,Informational
 Domain,snowchat.ai,Block,AI Domain Block,snowchat.ai,Informational
 Domain,tendem.ai,Block,AI Domain Block,tendem.ai,Informational
 Domain,videoideas.ai,Block,AI Domain Block,videoideas.ai,Informational
+Domain,visalytica.com,Block,AI Domain Block,visalytica.com,Informational
 Domain,vomo.ai,Block,AI Domain Block,vomo.ai,Informational
 Domain,voxdeck.ai,Block,AI Domain Block,voxdeck.ai,Informational
 Domain,watermelon.ai,Block,AI Domain Block,watermelon.ai,Informational
