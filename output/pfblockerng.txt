@@ -1,6 +1,6 @@
 alaba.ai
-batchvideo.ai
-dreamlux.ai
+chatplayground.ai
+garage-gpt.ch
 h2o.ai
 joineve.ai
 nautex.ai
@@ -8,7 +8,6 @@ notis.ai
 remio.ai
 search-visibility.ai
 seoforge.ai
-snowchat.ai
 tendem.ai
 videoideas.ai
 visalytica.com
