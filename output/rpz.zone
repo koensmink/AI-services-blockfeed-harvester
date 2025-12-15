@@ -3,7 +3,6 @@ $TTL 2h
     IN  NS  localhost.
 alaba.ai. IN CNAME .
 chatplayground.ai. IN CNAME .
-garage-gpt.ch. IN CNAME .
 h2o.ai. IN CNAME .
 joineve.ai. IN CNAME .
 nautex.ai. IN CNAME .
