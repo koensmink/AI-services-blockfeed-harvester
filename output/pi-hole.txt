@@ -1,5 +1,6 @@
 alaba.ai
-chatplayground.ai
+bluealpha.ai
+garage-gpt.ch
 h2o.ai
 joineve.ai
 nautex.ai
