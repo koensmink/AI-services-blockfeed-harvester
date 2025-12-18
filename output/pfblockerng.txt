@@ -1,10 +1,12 @@
 alaba.ai
 bluealpha.ai
-garage-gpt.ch
+documentation.ai
 h2o.ai
+hilm.ai
 komos.ai
 nautex.ai
 notis.ai
+refly.ai
 remio.ai
 seoforge.ai
 tendem.ai

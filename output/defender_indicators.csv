@@ -1,11 +1,13 @@
 IndicatorType,IndicatorValue,Action,Title,Description,Severity
 Domain,alaba.ai,Block,AI Domain Block,alaba.ai,Informational
 Domain,bluealpha.ai,Block,AI Domain Block,bluealpha.ai,Informational
-Domain,garage-gpt.ch,Block,AI Domain Block,garage-gpt.ch,Informational
+Domain,documentation.ai,Block,AI Domain Block,documentation.ai,Informational
 Domain,h2o.ai,Block,AI Domain Block,h2o.ai,Informational
+Domain,hilm.ai,Block,AI Domain Block,hilm.ai,Informational
 Domain,komos.ai,Block,AI Domain Block,komos.ai,Informational
 Domain,nautex.ai,Block,AI Domain Block,nautex.ai,Informational
 Domain,notis.ai,Block,AI Domain Block,notis.ai,Informational
+Domain,refly.ai,Block,AI Domain Block,refly.ai,Informational
 Domain,remio.ai,Block,AI Domain Block,remio.ai,Informational
 Domain,seoforge.ai,Block,AI Domain Block,seoforge.ai,Informational
 Domain,tendem.ai,Block,AI Domain Block,tendem.ai,Informational
