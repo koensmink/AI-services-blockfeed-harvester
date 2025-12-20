@@ -2,11 +2,15 @@ $TTL 2h
 @   IN  SOA localhost. root.localhost. ( 1 1h 15m 30d 2h )
     IN  NS  localhost.
 alaba.ai. IN CNAME .
+better-business.ai. IN CNAME .
 bluealpha.ai. IN CNAME .
+chartgen.ai. IN CNAME .
 documentation.ai. IN CNAME .
 h2o.ai. IN CNAME .
 hilm.ai. IN CNAME .
 komos.ai. IN CNAME .
+lyrio.ai. IN CNAME .
+mistral.ai. IN CNAME .
 notis.ai. IN CNAME .
 refly.ai. IN CNAME .
 remio.ai. IN CNAME .
