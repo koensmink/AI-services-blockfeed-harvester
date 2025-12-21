@@ -1,6 +1,7 @@
 $TTL 2h
 @   IN  SOA localhost. root.localhost. ( 1 1h 15m 30d 2h )
     IN  NS  localhost.
+1dot.ai. IN CNAME .
 alaba.ai. IN CNAME .
 better-business.ai. IN CNAME .
 bluealpha.ai. IN CNAME .

@@ -1,4 +1,5 @@
 IndicatorType,IndicatorValue,Action,Title,Description,Severity
+Domain,1dot.ai,Block,AI Domain Block,1dot.ai,Informational
 Domain,alaba.ai,Block,AI Domain Block,alaba.ai,Informational
 Domain,better-business.ai,Block,AI Domain Block,better-business.ai,Informational
 Domain,bluealpha.ai,Block,AI Domain Block,bluealpha.ai,Informational
