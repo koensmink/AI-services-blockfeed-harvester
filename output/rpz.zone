@@ -4,8 +4,6 @@ $TTL 2h
 1dot.ai. IN CNAME .
 alaba.ai. IN CNAME .
 better-business.ai. IN CNAME .
-bluealpha.ai. IN CNAME .
-chartgen.ai. IN CNAME .
 documentation.ai. IN CNAME .
 h2o.ai. IN CNAME .
 hilm.ai. IN CNAME .
@@ -17,6 +15,5 @@ refly.ai. IN CNAME .
 remio.ai. IN CNAME .
 tendem.ai. IN CNAME .
 videoideas.ai. IN CNAME .
-visalytica.com. IN CNAME .
 voxdeck.ai. IN CNAME .
 watermelon.ai. IN CNAME .

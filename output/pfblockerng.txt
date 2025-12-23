@@ -1,8 +1,6 @@
 1dot.ai
 alaba.ai
 better-business.ai
-bluealpha.ai
-chartgen.ai
 documentation.ai
 h2o.ai
 hilm.ai
@@ -14,6 +12,5 @@ refly.ai
 remio.ai
 tendem.ai
 videoideas.ai
-visalytica.com
 voxdeck.ai
 watermelon.ai
