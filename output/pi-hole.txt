@@ -4,7 +4,6 @@ better-business.ai
 documentation.ai
 h2o.ai
 hilm.ai
-komos.ai
 lyrio.ai
 mistral.ai
 notis.ai
