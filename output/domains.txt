@@ -5,10 +5,9 @@ h2o.ai
 lalal.ai
 lyrio.ai
 mistral.ai
-notis.ai
-remio.ai
 tendem.ai
 usenotch.ai
+vertechacademy.ca
 videoideas.ai
 voxdeck.ai
 watermelon.ai
