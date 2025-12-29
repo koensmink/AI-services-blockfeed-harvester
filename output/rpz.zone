@@ -2,13 +2,15 @@ $TTL 2h
 @   IN  SOA localhost. root.localhost. ( 1 1h 15m 30d 2h )
     IN  NS  localhost.
 alaba.ai. IN CNAME .
-garage-gpt.ch. IN CNAME .
 h2o.ai. IN CNAME .
 lalal.ai. IN CNAME .
 notis.ai. IN CNAME .
+novakit.ai. IN CNAME .
+remio.ai. IN CNAME .
 tendem.ai. IN CNAME .
 usenotch.ai. IN CNAME .
 vertechacademy.ca. IN CNAME .
 videoideas.ai. IN CNAME .
 voxdeck.ai. IN CNAME .
 watermelon.ai. IN CNAME .
+zenmux.ai. IN CNAME .
