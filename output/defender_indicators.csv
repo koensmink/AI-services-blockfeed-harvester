@@ -1,5 +1,6 @@
 IndicatorType,IndicatorValue,Action,Title,Description,Severity
 Domain,alaba.ai,Block,AI Domain Block,alaba.ai,Informational
+Domain,garage-gpt.ch,Block,AI Domain Block,garage-gpt.ch,Informational
 Domain,h2o.ai,Block,AI Domain Block,h2o.ai,Informational
 Domain,lalal.ai,Block,AI Domain Block,lalal.ai,Informational
 Domain,notis.ai,Block,AI Domain Block,notis.ai,Informational
