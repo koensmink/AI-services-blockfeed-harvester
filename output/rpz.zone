@@ -1,33 +1,21 @@
 $TTL 2h
 @   IN  SOA localhost. root.localhost. ( 1 1h 15m 30d 2h )
     IN  NS  localhost.
-51p.ai. IN CNAME .
-acumen.ai. IN CNAME .
 alaba.ai. IN CNAME .
-ava.ai. IN CNAME .
 caseai.ai. IN CNAME .
-ent.ai. IN CNAME .
 garage-gpt.ch. IN CNAME .
 gobii.ai. IN CNAME .
 h2o.ai. IN CNAME .
 heeb.ai. IN CNAME .
+hellobeacon.ai. IN CNAME .
+hintgo.ai. IN CNAME .
 hocha.ai. IN CNAME .
 igpt.ai. IN CNAME .
-jp.ai. IN CNAME .
 leania.ai. IN CNAME .
-lucy.ai. IN CNAME .
-matrix.ai. IN CNAME .
-name.ai. IN CNAME .
 notis.ai. IN CNAME .
-onz.ai. IN CNAME .
-recall.ai. IN CNAME .
 remio.ai. IN CNAME .
-socrates.ai. IN CNAME .
 tendem.ai. IN CNAME .
-vadu.ai. IN CNAME .
+vertechacademy.ca. IN CNAME .
 videoideas.ai. IN CNAME .
-vision.ai. IN CNAME .
-vk.ai. IN CNAME .
 voxdeck.ai. IN CNAME .
 watermelon.ai. IN CNAME .
-z.ai. IN CNAME .
