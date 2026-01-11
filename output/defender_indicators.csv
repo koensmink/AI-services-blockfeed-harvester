@@ -1,5 +1,8 @@
 IndicatorType,IndicatorValue,Action,Title,Description,Severity
+Domain,51p.ai,Block,AI Domain Block,51p.ai,Informational
+Domain,acumen.ai,Block,AI Domain Block,acumen.ai,Informational
 Domain,alaba.ai,Block,AI Domain Block,alaba.ai,Informational
+Domain,ava.ai,Block,AI Domain Block,ava.ai,Informational
 Domain,corewise.video,Block,AI Domain Block,corewise.video,Informational
 Domain,eachlabs.ai,Block,AI Domain Block,eachlabs.ai,Informational
 Domain,gobii.ai,Block,AI Domain Block,gobii.ai,Informational
@@ -7,12 +10,23 @@ Domain,h2o.ai,Block,AI Domain Block,h2o.ai,Informational
 Domain,hellobeacon.ai,Block,AI Domain Block,hellobeacon.ai,Informational
 Domain,hintgo.ai,Block,AI Domain Block,hintgo.ai,Informational
 Domain,interviewfox.ai,Block,AI Domain Block,interviewfox.ai,Informational
+Domain,isso.ai,Block,AI Domain Block,isso.ai,Informational
+Domain,jp.ai,Block,AI Domain Block,jp.ai,Informational
+Domain,lucy.ai,Block,AI Domain Block,lucy.ai,Informational
 Domain,lyzr.ai,Block,AI Domain Block,lyzr.ai,Informational
-Domain,notis.ai,Block,AI Domain Block,notis.ai,Informational
+Domain,matrix.ai,Block,AI Domain Block,matrix.ai,Informational
+Domain,niki.ai,Block,AI Domain Block,niki.ai,Informational
+Domain,onz.ai,Block,AI Domain Block,onz.ai,Informational
+Domain,recall.ai,Block,AI Domain Block,recall.ai,Informational
 Domain,remio.ai,Block,AI Domain Block,remio.ai,Informational
+Domain,responde.ai,Block,AI Domain Block,responde.ai,Informational
 Domain,signal87.ai,Block,AI Domain Block,signal87.ai,Informational
 Domain,tendem.ai,Block,AI Domain Block,tendem.ai,Informational
 Domain,trytenki.ai,Block,AI Domain Block,trytenki.ai,Informational
 Domain,videoideas.ai,Block,AI Domain Block,videoideas.ai,Informational
+Domain,vision.ai,Block,AI Domain Block,vision.ai,Informational
+Domain,vk.ai,Block,AI Domain Block,vk.ai,Informational
 Domain,voxdeck.ai,Block,AI Domain Block,voxdeck.ai,Informational
 Domain,watermelon.ai,Block,AI Domain Block,watermelon.ai,Informational
+Domain,z.ai,Block,AI Domain Block,z.ai,Informational
+Domain,zerotwo.ai,Block,AI Domain Block,zerotwo.ai,Informational
