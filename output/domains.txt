@@ -1,12 +1,11 @@
 51p.ai
+acumen.ai
 alaba.ai
 ava.ai
 corewise.video
 eachlabs.ai
 garage-gpt.ch
 h2o.ai
-hellobeacon.ai
-hintgo.ai
 interviewfox.ai
 jp.ai
 lucy.ai
@@ -14,6 +13,7 @@ lyzr.ai
 matrix.ai
 notis.ai
 onz.ai
+pagesmith.ai
 recall.ai
 remio.ai
 signal87.ai
@@ -26,5 +26,6 @@ vision.ai
 vk.ai
 voxdeck.ai
 watermelon.ai
+xpoz.ai
 z.ai
 zerotwo.ai
