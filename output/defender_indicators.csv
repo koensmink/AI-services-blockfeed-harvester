@@ -1,11 +1,8 @@
 IndicatorType,IndicatorValue,Action,Title,Description,Severity
 Domain,alaba.ai,Block,AI Domain Block,alaba.ai,Informational
 Domain,allex.ai,Block,AI Domain Block,allex.ai,Informational
-Domain,corewise.video,Block,AI Domain Block,corewise.video,Informational
 Domain,eachlabs.ai,Block,AI Domain Block,eachlabs.ai,Informational
-Domain,garage-gpt.ch,Block,AI Domain Block,garage-gpt.ch,Informational
 Domain,h2o.ai,Block,AI Domain Block,h2o.ai,Informational
-Domain,lyzr.ai,Block,AI Domain Block,lyzr.ai,Informational
 Domain,notis.ai,Block,AI Domain Block,notis.ai,Informational
 Domain,remio.ai,Block,AI Domain Block,remio.ai,Informational
 Domain,sinaptic.ai,Block,AI Domain Block,sinaptic.ai,Informational
@@ -16,4 +13,3 @@ Domain,videoideas.ai,Block,AI Domain Block,videoideas.ai,Informational
 Domain,voxdeck.ai,Block,AI Domain Block,voxdeck.ai,Informational
 Domain,watermelon.ai,Block,AI Domain Block,watermelon.ai,Informational
 Domain,xpoz.ai,Block,AI Domain Block,xpoz.ai,Informational
-Domain,zerotwo.ai,Block,AI Domain Block,zerotwo.ai,Informational

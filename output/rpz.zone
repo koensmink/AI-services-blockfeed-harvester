@@ -3,11 +3,8 @@ $TTL 2h
     IN  NS  localhost.
 alaba.ai. IN CNAME .
 allex.ai. IN CNAME .
-corewise.video. IN CNAME .
 eachlabs.ai. IN CNAME .
-garage-gpt.ch. IN CNAME .
 h2o.ai. IN CNAME .
-lyzr.ai. IN CNAME .
 notis.ai. IN CNAME .
 remio.ai. IN CNAME .
 sinaptic.ai. IN CNAME .
@@ -18,4 +15,3 @@ videoideas.ai. IN CNAME .
 voxdeck.ai. IN CNAME .
 watermelon.ai. IN CNAME .
 xpoz.ai. IN CNAME .
-zerotwo.ai. IN CNAME .
