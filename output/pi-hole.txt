@@ -1,8 +1,9 @@
-acumen.ai
+accomplish.ai
 alaba.ai
 allex.ai
 ava.ai
 crevid.ai
+garage-gpt.ch
 h2o.ai
 jp.ai
 lucy.ai
@@ -11,8 +12,6 @@ notis.ai
 onz.ai
 recall.ai
 remio.ai
-responde.ai
-sinaptic.ai
 socrates.ai
 tendem.ai
 trytenki.ai
