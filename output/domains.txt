@@ -1,10 +1,10 @@
-accomplish.ai
 acumen.ai
 alaba.ai
-allex.ai
 ava.ai
+blackbox.ai
 createmusicvideo.ai
 crevid.ai
+fireflies.ai
 garage-gpt.ch
 himala.ai
 jp.ai

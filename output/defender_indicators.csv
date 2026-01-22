@@ -1,11 +1,11 @@
 IndicatorType,IndicatorValue,Action,Title,Description,Severity
-Domain,accomplish.ai,Block,AI Domain Block,accomplish.ai,Informational
 Domain,acumen.ai,Block,AI Domain Block,acumen.ai,Informational
 Domain,alaba.ai,Block,AI Domain Block,alaba.ai,Informational
-Domain,allex.ai,Block,AI Domain Block,allex.ai,Informational
 Domain,ava.ai,Block,AI Domain Block,ava.ai,Informational
+Domain,blackbox.ai,Block,AI Domain Block,blackbox.ai,Informational
 Domain,createmusicvideo.ai,Block,AI Domain Block,createmusicvideo.ai,Informational
 Domain,crevid.ai,Block,AI Domain Block,crevid.ai,Informational
+Domain,fireflies.ai,Block,AI Domain Block,fireflies.ai,Informational
 Domain,garage-gpt.ch,Block,AI Domain Block,garage-gpt.ch,Informational
 Domain,himala.ai,Block,AI Domain Block,himala.ai,Informational
 Domain,jp.ai,Block,AI Domain Block,jp.ai,Informational
