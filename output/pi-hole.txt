@@ -2,6 +2,7 @@ acumen.ai
 alaba.ai
 ava.ai
 blackbox.ai
+corewise.video
 createmusicvideo.ai
 crevid.ai
 fireflies.ai
@@ -14,14 +15,13 @@ notis.ai
 onz.ai
 recall.ai
 remio.ai
-socrates.ai
 tendem.ai
 tryfacet.io
-trytenki.ai
 videoideas.ai
 vidofy.ai
 vision.ai
 vk.ai
 voxdeck.ai
 watermelon.ai
+x-pilot.ai
 z.ai
