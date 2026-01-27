@@ -1,9 +1,10 @@
 alaba.ai
-blackbox.ai
+buzzabout.ai
 corewise.video
 createmusicvideo.ai
 diaglo.ai
 fireflies.ai
+garage-gpt.ch
 h2o.ai
 himala.ai
 learnplace.ai
@@ -14,9 +15,7 @@ smartcalendars.ai
 soolo.ai
 superhumanizer.ai
 tendem.ai
-vertechacademy.ca
 videoideas.ai
-vidofy.ai
 voxdeck.ai
 watermelon.ai
 x-pilot.ai

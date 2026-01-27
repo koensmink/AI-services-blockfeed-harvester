@@ -2,11 +2,12 @@ $TTL 2h
 @   IN  SOA localhost. root.localhost. ( 1 1h 15m 30d 2h )
     IN  NS  localhost.
 alaba.ai. IN CNAME .
-blackbox.ai. IN CNAME .
+buzzabout.ai. IN CNAME .
 corewise.video. IN CNAME .
 createmusicvideo.ai. IN CNAME .
 diaglo.ai. IN CNAME .
 fireflies.ai. IN CNAME .
+garage-gpt.ch. IN CNAME .
 h2o.ai. IN CNAME .
 himala.ai. IN CNAME .
 learnplace.ai. IN CNAME .
@@ -17,9 +18,7 @@ smartcalendars.ai. IN CNAME .
 soolo.ai. IN CNAME .
 superhumanizer.ai. IN CNAME .
 tendem.ai. IN CNAME .
-vertechacademy.ca. IN CNAME .
 videoideas.ai. IN CNAME .
-vidofy.ai. IN CNAME .
 voxdeck.ai. IN CNAME .
 watermelon.ai. IN CNAME .
 x-pilot.ai. IN CNAME .
