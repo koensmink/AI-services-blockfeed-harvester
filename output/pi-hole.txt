@@ -1,6 +1,5 @@
 alaba.ai
 buzzabout.ai
-corewise.video
 diaglo.ai
 fireflies.ai
 garage-gpt.ch

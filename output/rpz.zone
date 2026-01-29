@@ -3,7 +3,6 @@ $TTL 2h
     IN  NS  localhost.
 alaba.ai. IN CNAME .
 buzzabout.ai. IN CNAME .
-corewise.video. IN CNAME .
 diaglo.ai. IN CNAME .
 fireflies.ai. IN CNAME .
 garage-gpt.ch. IN CNAME .
