@@ -1,9 +1,10 @@
 alaba.ai
+anuma.ai
 buzzabout.ai
 diaglo.ai
 fireflies.ai
-garage-gpt.ch
 h2o.ai
+heyscottie.ai
 learnplace.ai
 neobrowser.ai
 notis.ai
@@ -12,6 +13,7 @@ smartcalendars.ai
 soolo.ai
 superhumanizer.ai
 tendem.ai
+vertechacademy.ca
 videoideas.ai
 viyou.ai
 voxdeck.ai
