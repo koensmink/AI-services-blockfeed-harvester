@@ -1,18 +1,16 @@
 IndicatorType,IndicatorValue,Action,Title,Description,Severity
-Domain,acumen.ai,Block,AI Domain Block,acumen.ai,Informational
-Domain,aitiger.ai,Block,AI Domain Block,aitiger.ai,Informational
 Domain,alaba.ai,Block,AI Domain Block,alaba.ai,Informational
 Domain,ava.ai,Block,AI Domain Block,ava.ai,Informational
 Domain,dreamervision.ai,Block,AI Domain Block,dreamervision.ai,Informational
 Domain,fireflies.ai,Block,AI Domain Block,fireflies.ai,Informational
 Domain,garage-gpt.ch,Block,AI Domain Block,garage-gpt.ch,Informational
 Domain,h2o.ai,Block,AI Domain Block,h2o.ai,Informational
-Domain,heyscottie.ai,Block,AI Domain Block,heyscottie.ai,Informational
 Domain,jp.ai,Block,AI Domain Block,jp.ai,Informational
 Domain,lucy.ai,Block,AI Domain Block,lucy.ai,Informational
+Domain,luxreal.ai,Block,AI Domain Block,luxreal.ai,Informational
 Domain,matrix.ai,Block,AI Domain Block,matrix.ai,Informational
-Domain,my.ai,Block,AI Domain Block,my.ai,Informational
 Domain,notis.ai,Block,AI Domain Block,notis.ai,Informational
+Domain,novelcraft.ai,Block,AI Domain Block,novelcraft.ai,Informational
 Domain,onz.ai,Block,AI Domain Block,onz.ai,Informational
 Domain,recall.ai,Block,AI Domain Block,recall.ai,Informational
 Domain,remio.ai,Block,AI Domain Block,remio.ai,Informational
