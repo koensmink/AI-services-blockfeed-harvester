@@ -1,9 +1,9 @@
 IndicatorType,IndicatorValue,Action,Title,Description,Severity
 Domain,aimentionyou.com,Block,AI Domain Block,aimentionyou.com,Informational
-Domain,aitiger.ai,Block,AI Domain Block,aitiger.ai,Informational
 Domain,alaba.ai,Block,AI Domain Block,alaba.ai,Informational
 Domain,dreamervision.ai,Block,AI Domain Block,dreamervision.ai,Informational
 Domain,empirio.ai,Block,AI Domain Block,empirio.ai,Informational
+Domain,garage-gpt.ch,Block,AI Domain Block,garage-gpt.ch,Informational
 Domain,h2o.ai,Block,AI Domain Block,h2o.ai,Informational
 Domain,luxreal.ai,Block,AI Domain Block,luxreal.ai,Informational
 Domain,notis.ai,Block,AI Domain Block,notis.ai,Informational

@@ -2,10 +2,10 @@ $TTL 2h
 @   IN  SOA localhost. root.localhost. ( 1 1h 15m 30d 2h )
     IN  NS  localhost.
 aimentionyou.com. IN CNAME .
-aitiger.ai. IN CNAME .
 alaba.ai. IN CNAME .
 dreamervision.ai. IN CNAME .
 empirio.ai. IN CNAME .
+garage-gpt.ch. IN CNAME .
 h2o.ai. IN CNAME .
 luxreal.ai. IN CNAME .
 notis.ai. IN CNAME .
