@@ -1,8 +1,8 @@
 alaba.ai
 braingrid.ai
-empirio.ai
 ezugc.ai
 findtube.ai
+garage-gpt.ch
 genmix.ai
 h2o.ai
 luxreal.ai
@@ -18,3 +18,4 @@ viyou.ai
 voxdeck.ai
 watermelon.ai
 x-pilot.ai
+z.ai

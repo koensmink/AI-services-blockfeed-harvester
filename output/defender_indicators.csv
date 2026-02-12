@@ -1,9 +1,9 @@
 IndicatorType,IndicatorValue,Action,Title,Description,Severity
 Domain,alaba.ai,Block,AI Domain Block,alaba.ai,Informational
 Domain,braingrid.ai,Block,AI Domain Block,braingrid.ai,Informational
-Domain,empirio.ai,Block,AI Domain Block,empirio.ai,Informational
 Domain,ezugc.ai,Block,AI Domain Block,ezugc.ai,Informational
 Domain,findtube.ai,Block,AI Domain Block,findtube.ai,Informational
+Domain,garage-gpt.ch,Block,AI Domain Block,garage-gpt.ch,Informational
 Domain,genmix.ai,Block,AI Domain Block,genmix.ai,Informational
 Domain,h2o.ai,Block,AI Domain Block,h2o.ai,Informational
 Domain,luxreal.ai,Block,AI Domain Block,luxreal.ai,Informational
@@ -19,3 +19,4 @@ Domain,viyou.ai,Block,AI Domain Block,viyou.ai,Informational
 Domain,voxdeck.ai,Block,AI Domain Block,voxdeck.ai,Informational
 Domain,watermelon.ai,Block,AI Domain Block,watermelon.ai,Informational
 Domain,x-pilot.ai,Block,AI Domain Block,x-pilot.ai,Informational
+Domain,z.ai,Block,AI Domain Block,z.ai,Informational
