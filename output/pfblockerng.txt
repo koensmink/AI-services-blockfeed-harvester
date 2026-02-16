@@ -1,11 +1,9 @@
 alaba.ai
 alison.ai
 braingrid.ai
-chatplayground.ai
 cloudx.ai
 ezugc.ai
 findtube.ai
-garage-gpt.ch
 genmix.ai
 h2o.ai
 modulate.ai
@@ -16,6 +14,7 @@ remio.ai
 skillaeo.com
 tendem.ai
 unifycore.ai
+vertechacademy.ca
 viyou.ai
 voxdeck.ai
 watermelon.ai

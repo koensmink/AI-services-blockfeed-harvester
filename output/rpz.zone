@@ -4,11 +4,9 @@ $TTL 2h
 alaba.ai. IN CNAME .
 alison.ai. IN CNAME .
 braingrid.ai. IN CNAME .
-chatplayground.ai. IN CNAME .
 cloudx.ai. IN CNAME .
 ezugc.ai. IN CNAME .
 findtube.ai. IN CNAME .
-garage-gpt.ch. IN CNAME .
 genmix.ai. IN CNAME .
 h2o.ai. IN CNAME .
 modulate.ai. IN CNAME .
@@ -19,6 +17,7 @@ remio.ai. IN CNAME .
 skillaeo.com. IN CNAME .
 tendem.ai. IN CNAME .
 unifycore.ai. IN CNAME .
+vertechacademy.ca. IN CNAME .
 viyou.ai. IN CNAME .
 voxdeck.ai. IN CNAME .
 watermelon.ai. IN CNAME .
