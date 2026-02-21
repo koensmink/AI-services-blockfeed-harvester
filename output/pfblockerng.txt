@@ -8,13 +8,15 @@ genmix.ai
 h2o.ai
 initrunner.ai
 lindy.ai
+llmcouncil.ai
 llmwise.ai
 notis.ai
+propelrx.ai
 qwen.ai
 remio.ai
+stablecommerce.ai
 tendem.ai
 twintone.ai
-unifycore.ai
 viyou.ai
 voxdeck.ai
 watermelon.ai
