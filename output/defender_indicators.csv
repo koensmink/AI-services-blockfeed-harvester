@@ -1,7 +1,9 @@
 IndicatorType,IndicatorValue,Action,Title,Description,Severity
 Domain,aimentionyou.com,Block,AI Domain Block,aimentionyou.com,Informational
 Domain,alaba.ai,Block,AI Domain Block,alaba.ai,Informational
+Domain,appdeploy.ai,Block,AI Domain Block,appdeploy.ai,Informational
 Domain,averi.ai,Block,AI Domain Block,averi.ai,Informational
+Domain,cataseo.ai,Block,AI Domain Block,cataseo.ai,Informational
 Domain,chatplayground.ai,Block,AI Domain Block,chatplayground.ai,Informational
 Domain,columns.ai,Block,AI Domain Block,columns.ai,Informational
 Domain,egaki.ai,Block,AI Domain Block,egaki.ai,Informational

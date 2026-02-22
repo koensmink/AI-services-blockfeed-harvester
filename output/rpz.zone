@@ -3,7 +3,9 @@ $TTL 2h
     IN  NS  localhost.
 aimentionyou.com. IN CNAME .
 alaba.ai. IN CNAME .
+appdeploy.ai. IN CNAME .
 averi.ai. IN CNAME .
+cataseo.ai. IN CNAME .
 chatplayground.ai. IN CNAME .
 columns.ai. IN CNAME .
 egaki.ai. IN CNAME .
