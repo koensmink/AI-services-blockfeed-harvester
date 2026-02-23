@@ -3,7 +3,6 @@ alaba.ai
 appdeploy.ai
 averi.ai
 cataseo.ai
-chatplayground.ai
 columns.ai
 egaki.ai
 genmix.ai
@@ -12,6 +11,7 @@ initrunner.ai
 lindy.ai
 llmcouncil.ai
 llmwise.ai
+mathaigpt.com
 notis.ai
 propelrx.ai
 qwen.ai
