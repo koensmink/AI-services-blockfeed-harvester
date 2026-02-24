@@ -3,10 +3,12 @@ alaba.ai
 appdeploy.ai
 averi.ai
 cataseo.ai
+chatplayground.ai
 columns.ai
 egaki.ai
 genmix.ai
 h2o.ai
+heyvid.ai
 initrunner.ai
 lindy.ai
 llmcouncil.ai
@@ -14,8 +16,6 @@ llmwise.ai
 mathaigpt.com
 notis.ai
 propelrx.ai
-qwen.ai
-remio.ai
 stablecommerce.ai
 tendem.ai
 twintone.ai
@@ -23,4 +23,4 @@ viyou.ai
 voxdeck.ai
 watermelon.ai
 x-pilot.ai
-yooz.ai
+xeditai.com
