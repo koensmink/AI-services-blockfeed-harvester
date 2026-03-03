@@ -2,18 +2,18 @@ acumen.ai
 alaba.ai
 askpancho.ai
 ava.ai
+busyocto.ai
 creen.ai
 expensebot.ai
 garage-gpt.ch
-google.off.ai
 h2o.ai
 help.ai
-heyvid.ai
 inceptionlabs.ai
 jp.ai
 lucy.ai
 matrix.ai
 mnemom.ai
+my.ai
 name.ai
 notis.ai
 onz.ai
@@ -31,6 +31,5 @@ vk.ai
 voxdeck.ai
 watermelon.ai
 x-pilot.ai
-xeditai.com
 younet.ai
 z.ai
