@@ -11,9 +11,10 @@ help.ai
 inceptionlabs.ai
 jp.ai
 lucy.ai
+marketeze.ai
 matrix.ai
+memdex.ai
 mnemom.ai
-my.ai
 name.ai
 notis.ai
 onz.ai
