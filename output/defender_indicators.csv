@@ -1,16 +1,18 @@
 IndicatorType,IndicatorValue,Action,Title,Description,Severity
 Domain,alaba.ai,Block,AI Domain Block,alaba.ai,Informational
-Domain,axellai.com,Block,AI Domain Block,axellai.com,Informational
+Domain,brutally.ai,Block,AI Domain Block,brutally.ai,Informational
 Domain,h2o.ai,Block,AI Domain Block,h2o.ai,Informational
 Domain,leania.ai,Block,AI Domain Block,leania.ai,Informational
 Domain,movealerts.ai,Block,AI Domain Block,movealerts.ai,Informational
 Domain,notis.ai,Block,AI Domain Block,notis.ai,Informational
+Domain,oddsmyth.ai,Block,AI Domain Block,oddsmyth.ai,Informational
+Domain,reka.ai,Block,AI Domain Block,reka.ai,Informational
 Domain,remio.ai,Block,AI Domain Block,remio.ai,Informational
 Domain,seoforge.ai,Block,AI Domain Block,seoforge.ai,Informational
 Domain,skillraptor.ai,Block,AI Domain Block,skillraptor.ai,Informational
-Domain,squaregen.ai,Block,AI Domain Block,squaregen.ai,Informational
 Domain,tendem.ai,Block,AI Domain Block,tendem.ai,Informational
 Domain,tented.ai,Block,AI Domain Block,tented.ai,Informational
+Domain,tryagain.ai,Block,AI Domain Block,tryagain.ai,Informational
 Domain,viyou.ai,Block,AI Domain Block,viyou.ai,Informational
 Domain,voooai.com,Block,AI Domain Block,voooai.com,Informational
 Domain,voxdeck.ai,Block,AI Domain Block,voxdeck.ai,Informational
@@ -19,3 +21,4 @@ Domain,x-pilot.ai,Block,AI Domain Block,x-pilot.ai,Informational
 Domain,yooz.ai,Block,AI Domain Block,yooz.ai,Informational
 Domain,zerotwo.ai,Block,AI Domain Block,zerotwo.ai,Informational
 Domain,zinng.ai,Block,AI Domain Block,zinng.ai,Informational
+Domain,ziweiastrology.ai,Block,AI Domain Block,ziweiastrology.ai,Informational
