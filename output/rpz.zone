@@ -3,6 +3,7 @@ $TTL 2h
     IN  NS  localhost.
 alaba.ai. IN CNAME .
 brutally.ai. IN CNAME .
+garage-gpt.ch. IN CNAME .
 h2o.ai. IN CNAME .
 leania.ai. IN CNAME .
 movealerts.ai. IN CNAME .
@@ -11,11 +12,11 @@ oddsmyth.ai. IN CNAME .
 reka.ai. IN CNAME .
 remio.ai. IN CNAME .
 seoforge.ai. IN CNAME .
-skillraptor.ai. IN CNAME .
 tendem.ai. IN CNAME .
 tryagain.ai. IN CNAME .
 viyou.ai. IN CNAME .
 voooai.com. IN CNAME .
 voxdeck.ai. IN CNAME .
 watermelon.ai. IN CNAME .
+younet.ai. IN CNAME .
 ziweiastrology.ai. IN CNAME .
