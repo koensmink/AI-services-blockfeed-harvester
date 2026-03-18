@@ -1,6 +1,9 @@
 IndicatorType,IndicatorValue,Action,Title,Description,Severity
 Domain,alaba.ai,Block,AI Domain Block,alaba.ai,Informational
+Domain,archrender.ai,Block,AI Domain Block,archrender.ai,Informational
 Domain,brutally.ai,Block,AI Domain Block,brutally.ai,Informational
+Domain,comma.ai,Block,AI Domain Block,comma.ai,Informational
+Domain,deployables.ai,Block,AI Domain Block,deployables.ai,Informational
 Domain,h2o.ai,Block,AI Domain Block,h2o.ai,Informational
 Domain,linkly.ai,Block,AI Domain Block,linkly.ai,Informational
 Domain,modulate.ai,Block,AI Domain Block,modulate.ai,Informational
@@ -8,7 +11,6 @@ Domain,notis.ai,Block,AI Domain Block,notis.ai,Informational
 Domain,oddsmyth.ai,Block,AI Domain Block,oddsmyth.ai,Informational
 Domain,reka.ai,Block,AI Domain Block,reka.ai,Informational
 Domain,remio.ai,Block,AI Domain Block,remio.ai,Informational
-Domain,seoforge.ai,Block,AI Domain Block,seoforge.ai,Informational
 Domain,tendem.ai,Block,AI Domain Block,tendem.ai,Informational
 Domain,tryagain.ai,Block,AI Domain Block,tryagain.ai,Informational
 Domain,viyou.ai,Block,AI Domain Block,viyou.ai,Informational

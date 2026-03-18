@@ -1,5 +1,8 @@
 alaba.ai
+archrender.ai
 brutally.ai
+comma.ai
+deployables.ai
 h2o.ai
 linkly.ai
 modulate.ai
@@ -7,7 +10,6 @@ notis.ai
 oddsmyth.ai
 reka.ai
 remio.ai
-seoforge.ai
 tendem.ai
 tryagain.ai
 viyou.ai
