@@ -1,22 +1,21 @@
 IndicatorType,IndicatorValue,Action,Title,Description,Severity
 Domain,alaba.ai,Block,AI Domain Block,alaba.ai,Informational
-Domain,archrender.ai,Block,AI Domain Block,archrender.ai,Informational
 Domain,comma.ai,Block,AI Domain Block,comma.ai,Informational
 Domain,deployables.ai,Block,AI Domain Block,deployables.ai,Informational
-Domain,fireflies.ai,Block,AI Domain Block,fireflies.ai,Informational
-Domain,garage-gpt.ch,Block,AI Domain Block,garage-gpt.ch,Informational
 Domain,h2o.ai,Block,AI Domain Block,h2o.ai,Informational
 Domain,hiresteve.ai,Block,AI Domain Block,hiresteve.ai,Informational
 Domain,leania.ai,Block,AI Domain Block,leania.ai,Informational
-Domain,linkly.ai,Block,AI Domain Block,linkly.ai,Informational
 Domain,notis.ai,Block,AI Domain Block,notis.ai,Informational
 Domain,oddsmyth.ai,Block,AI Domain Block,oddsmyth.ai,Informational
+Domain,openart.ai,Block,AI Domain Block,openart.ai,Informational
 Domain,orbitalmarketing.ai,Block,AI Domain Block,orbitalmarketing.ai,Informational
 Domain,remio.ai,Block,AI Domain Block,remio.ai,Informational
-Domain,sensorhub.ai,Block,AI Domain Block,sensorhub.ai,Informational
+Domain,shogo.ai,Block,AI Domain Block,shogo.ai,Informational
 Domain,tendem.ai,Block,AI Domain Block,tendem.ai,Informational
+Domain,tinyfish.ai,Block,AI Domain Block,tinyfish.ai,Informational
 Domain,trustablelabs.com,Block,AI Domain Block,trustablelabs.com,Informational
 Domain,turingpulse.ai,Block,AI Domain Block,turingpulse.ai,Informational
+Domain,usefastlane.ai,Block,AI Domain Block,usefastlane.ai,Informational
 Domain,usesurfaced.com,Block,AI Domain Block,usesurfaced.com,Informational
 Domain,viyou.ai,Block,AI Domain Block,viyou.ai,Informational
 Domain,voxdeck.ai,Block,AI Domain Block,voxdeck.ai,Informational
