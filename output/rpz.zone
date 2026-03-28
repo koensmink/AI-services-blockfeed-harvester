@@ -1,12 +1,15 @@
 $TTL 2h
 @   IN  SOA localhost. root.localhost. ( 1 1h 15m 30d 2h )
     IN  NS  localhost.
+aftersession.ai. IN CNAME .
 alaba.ai. IN CNAME .
+bugzy.ai. IN CNAME .
 editpix.ai. IN CNAME .
+garage-gpt.ch. IN CNAME .
 h2o.ai. IN CNAME .
-hiresteve.ai. IN CNAME .
 leania.ai. IN CNAME .
 littlebird.ai. IN CNAME .
+notis.ai. IN CNAME .
 oddsmyth.ai. IN CNAME .
 pedra.ai. IN CNAME .
 pixellab.ai. IN CNAME .
@@ -17,11 +20,8 @@ surfmind.ai. IN CNAME .
 tendem.ai. IN CNAME .
 tinyfish.ai. IN CNAME .
 trustablelabs.com. IN CNAME .
-turingpulse.ai. IN CNAME .
 upsearch.ai. IN CNAME .
 usefastlane.ai. IN CNAME .
-usesurfaced.com. IN CNAME .
-viyou.ai. IN CNAME .
 voxdeck.ai. IN CNAME .
 watermelon.ai. IN CNAME .
 zerotwo.ai. IN CNAME .

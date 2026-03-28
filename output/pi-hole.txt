@@ -1,9 +1,12 @@
+aftersession.ai
 alaba.ai
+bugzy.ai
 editpix.ai
+garage-gpt.ch
 h2o.ai
-hiresteve.ai
 leania.ai
 littlebird.ai
+notis.ai
 oddsmyth.ai
 pedra.ai
 pixellab.ai
@@ -14,11 +17,8 @@ surfmind.ai
 tendem.ai
 tinyfish.ai
 trustablelabs.com
-turingpulse.ai
 upsearch.ai
 usefastlane.ai
-usesurfaced.com
-viyou.ai
 voxdeck.ai
 watermelon.ai
 zerotwo.ai

@@ -1,10 +1,13 @@
 IndicatorType,IndicatorValue,Action,Title,Description,Severity
+Domain,aftersession.ai,Block,AI Domain Block,aftersession.ai,Informational
 Domain,alaba.ai,Block,AI Domain Block,alaba.ai,Informational
+Domain,bugzy.ai,Block,AI Domain Block,bugzy.ai,Informational
 Domain,editpix.ai,Block,AI Domain Block,editpix.ai,Informational
+Domain,garage-gpt.ch,Block,AI Domain Block,garage-gpt.ch,Informational
 Domain,h2o.ai,Block,AI Domain Block,h2o.ai,Informational
-Domain,hiresteve.ai,Block,AI Domain Block,hiresteve.ai,Informational
 Domain,leania.ai,Block,AI Domain Block,leania.ai,Informational
 Domain,littlebird.ai,Block,AI Domain Block,littlebird.ai,Informational
+Domain,notis.ai,Block,AI Domain Block,notis.ai,Informational
 Domain,oddsmyth.ai,Block,AI Domain Block,oddsmyth.ai,Informational
 Domain,pedra.ai,Block,AI Domain Block,pedra.ai,Informational
 Domain,pixellab.ai,Block,AI Domain Block,pixellab.ai,Informational
@@ -15,11 +18,8 @@ Domain,surfmind.ai,Block,AI Domain Block,surfmind.ai,Informational
 Domain,tendem.ai,Block,AI Domain Block,tendem.ai,Informational
 Domain,tinyfish.ai,Block,AI Domain Block,tinyfish.ai,Informational
 Domain,trustablelabs.com,Block,AI Domain Block,trustablelabs.com,Informational
-Domain,turingpulse.ai,Block,AI Domain Block,turingpulse.ai,Informational
 Domain,upsearch.ai,Block,AI Domain Block,upsearch.ai,Informational
 Domain,usefastlane.ai,Block,AI Domain Block,usefastlane.ai,Informational
-Domain,usesurfaced.com,Block,AI Domain Block,usesurfaced.com,Informational
-Domain,viyou.ai,Block,AI Domain Block,viyou.ai,Informational
 Domain,voxdeck.ai,Block,AI Domain Block,voxdeck.ai,Informational
 Domain,watermelon.ai,Block,AI Domain Block,watermelon.ai,Informational
 Domain,zerotwo.ai,Block,AI Domain Block,zerotwo.ai,Informational
