@@ -1,8 +1,8 @@
 aftersession.ai
 alaba.ai
 bugzy.ai
+dageno.ai
 editpix.ai
-garage-gpt.ch
 h2o.ai
 leania.ai
 littlebird.ai
@@ -16,7 +16,6 @@ smallest.ai
 surfmind.ai
 tendem.ai
 tinyfish.ai
-trustablelabs.com
 upsearch.ai
 usefastlane.ai
 voxdeck.ai

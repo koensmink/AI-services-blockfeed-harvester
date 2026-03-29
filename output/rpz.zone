@@ -4,8 +4,8 @@ $TTL 2h
 aftersession.ai. IN CNAME .
 alaba.ai. IN CNAME .
 bugzy.ai. IN CNAME .
+dageno.ai. IN CNAME .
 editpix.ai. IN CNAME .
-garage-gpt.ch. IN CNAME .
 h2o.ai. IN CNAME .
 leania.ai. IN CNAME .
 littlebird.ai. IN CNAME .
@@ -19,7 +19,6 @@ smallest.ai. IN CNAME .
 surfmind.ai. IN CNAME .
 tendem.ai. IN CNAME .
 tinyfish.ai. IN CNAME .
-trustablelabs.com. IN CNAME .
 upsearch.ai. IN CNAME .
 usefastlane.ai. IN CNAME .
 voxdeck.ai. IN CNAME .

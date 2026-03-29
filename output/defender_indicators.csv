@@ -2,8 +2,8 @@ IndicatorType,IndicatorValue,Action,Title,Description,Severity
 Domain,aftersession.ai,Block,AI Domain Block,aftersession.ai,Informational
 Domain,alaba.ai,Block,AI Domain Block,alaba.ai,Informational
 Domain,bugzy.ai,Block,AI Domain Block,bugzy.ai,Informational
+Domain,dageno.ai,Block,AI Domain Block,dageno.ai,Informational
 Domain,editpix.ai,Block,AI Domain Block,editpix.ai,Informational
-Domain,garage-gpt.ch,Block,AI Domain Block,garage-gpt.ch,Informational
 Domain,h2o.ai,Block,AI Domain Block,h2o.ai,Informational
 Domain,leania.ai,Block,AI Domain Block,leania.ai,Informational
 Domain,littlebird.ai,Block,AI Domain Block,littlebird.ai,Informational
@@ -17,7 +17,6 @@ Domain,smallest.ai,Block,AI Domain Block,smallest.ai,Informational
 Domain,surfmind.ai,Block,AI Domain Block,surfmind.ai,Informational
 Domain,tendem.ai,Block,AI Domain Block,tendem.ai,Informational
 Domain,tinyfish.ai,Block,AI Domain Block,tinyfish.ai,Informational
-Domain,trustablelabs.com,Block,AI Domain Block,trustablelabs.com,Informational
 Domain,upsearch.ai,Block,AI Domain Block,upsearch.ai,Informational
 Domain,usefastlane.ai,Block,AI Domain Block,usefastlane.ai,Informational
 Domain,voxdeck.ai,Block,AI Domain Block,voxdeck.ai,Informational
