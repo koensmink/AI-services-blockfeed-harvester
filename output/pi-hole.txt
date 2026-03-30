@@ -3,11 +3,11 @@ alaba.ai
 bugzy.ai
 dageno.ai
 editpix.ai
+garage-gpt.ch
 h2o.ai
 leania.ai
 littlebird.ai
 notis.ai
-oddsmyth.ai
 pedra.ai
 pixellab.ai
 remio.ai
@@ -21,4 +21,3 @@ usefastlane.ai
 voxdeck.ai
 watermelon.ai
 zerotwo.ai
-zocra.ai
