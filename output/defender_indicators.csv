@@ -1,18 +1,19 @@
 IndicatorType,IndicatorValue,Action,Title,Description,Severity
 Domain,aftersession.ai,Block,AI Domain Block,aftersession.ai,Informational
 Domain,alaba.ai,Block,AI Domain Block,alaba.ai,Informational
+Domain,appdeploy.ai,Block,AI Domain Block,appdeploy.ai,Informational
+Domain,aurawriteai.com,Block,AI Domain Block,aurawriteai.com,Informational
 Domain,bugzy.ai,Block,AI Domain Block,bugzy.ai,Informational
 Domain,collony.ai,Block,AI Domain Block,collony.ai,Informational
 Domain,dageno.ai,Block,AI Domain Block,dageno.ai,Informational
-Domain,editpix.ai,Block,AI Domain Block,editpix.ai,Informational
 Domain,h2o.ai,Block,AI Domain Block,h2o.ai,Informational
+Domain,hanalyzer.ai,Block,AI Domain Block,hanalyzer.ai,Informational
 Domain,littlebird.ai,Block,AI Domain Block,littlebird.ai,Informational
 Domain,musyx.ai,Block,AI Domain Block,musyx.ai,Informational
 Domain,notis.ai,Block,AI Domain Block,notis.ai,Informational
+Domain,pagesmith.ai,Block,AI Domain Block,pagesmith.ai,Informational
 Domain,pedra.ai,Block,AI Domain Block,pedra.ai,Informational
-Domain,pixellab.ai,Block,AI Domain Block,pixellab.ai,Informational
 Domain,remio.ai,Block,AI Domain Block,remio.ai,Informational
-Domain,smallest.ai,Block,AI Domain Block,smallest.ai,Informational
 Domain,surfmind.ai,Block,AI Domain Block,surfmind.ai,Informational
 Domain,tendem.ai,Block,AI Domain Block,tendem.ai,Informational
 Domain,ultravox.ai,Block,AI Domain Block,ultravox.ai,Informational
