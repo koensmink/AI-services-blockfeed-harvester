@@ -1,18 +1,15 @@
 IndicatorType,IndicatorValue,Action,Title,Description,Severity
 Domain,alaba.ai,Block,AI Domain Block,alaba.ai,Informational
-Domain,appdeploy.ai,Block,AI Domain Block,appdeploy.ai,Informational
-Domain,aurawriteai.com,Block,AI Domain Block,aurawriteai.com,Informational
 Domain,averi.ai,Block,AI Domain Block,averi.ai,Informational
-Domain,garage-gpt.ch,Block,AI Domain Block,garage-gpt.ch,Informational
 Domain,h2o.ai,Block,AI Domain Block,h2o.ai,Informational
-Domain,hanalyzer.ai,Block,AI Domain Block,hanalyzer.ai,Informational
 Domain,hirebalzac.ai,Block,AI Domain Block,hirebalzac.ai,Informational
 Domain,letterlab.ai,Block,AI Domain Block,letterlab.ai,Informational
 Domain,likeclaw.ai,Block,AI Domain Block,likeclaw.ai,Informational
+Domain,myclaw.ai,Block,AI Domain Block,myclaw.ai,Informational
 Domain,notis.ai,Block,AI Domain Block,notis.ai,Informational
-Domain,pagesmith.ai,Block,AI Domain Block,pagesmith.ai,Informational
 Domain,promptfix.online,Block,AI Domain Block,promptfix.online,Informational
 Domain,qwen.ai,Block,AI Domain Block,qwen.ai,Informational
+Domain,remio.ai,Block,AI Domain Block,remio.ai,Informational
 Domain,reviewly.ai,Block,AI Domain Block,reviewly.ai,Informational
 Domain,seozilla.ai,Block,AI Domain Block,seozilla.ai,Informational
 Domain,tendem.ai,Block,AI Domain Block,tendem.ai,Informational
