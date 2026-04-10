@@ -1,9 +1,9 @@
 alaba.ai
-averi.ai
 featherless.ai
+filmpitch.ai
 h2o.ai
+kindredmind.care
 letterlab.ai
-likeclaw.ai
 myclaw.ai
 notis.ai
 orbitmeet.ai
@@ -12,7 +12,7 @@ seozilla.ai
 storypitch.ai
 syntopia.ai
 tendem.ai
-trytenki.ai
+tokenhot.ai
 trytether.ai
 vocaiq.ai
 voxdeck.ai

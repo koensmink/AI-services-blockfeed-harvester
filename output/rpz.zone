@@ -2,11 +2,11 @@ $TTL 2h
 @   IN  SOA localhost. root.localhost. ( 1 1h 15m 30d 2h )
     IN  NS  localhost.
 alaba.ai. IN CNAME .
-averi.ai. IN CNAME .
 featherless.ai. IN CNAME .
+filmpitch.ai. IN CNAME .
 h2o.ai. IN CNAME .
+kindredmind.care. IN CNAME .
 letterlab.ai. IN CNAME .
-likeclaw.ai. IN CNAME .
 myclaw.ai. IN CNAME .
 notis.ai. IN CNAME .
 orbitmeet.ai. IN CNAME .
@@ -15,7 +15,7 @@ seozilla.ai. IN CNAME .
 storypitch.ai. IN CNAME .
 syntopia.ai. IN CNAME .
 tendem.ai. IN CNAME .
-trytenki.ai. IN CNAME .
+tokenhot.ai. IN CNAME .
 trytether.ai. IN CNAME .
 vocaiq.ai. IN CNAME .
 voxdeck.ai. IN CNAME .
