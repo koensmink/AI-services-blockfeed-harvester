@@ -2,6 +2,7 @@ IndicatorType,IndicatorValue,Action,Title,Description,Severity
 Domain,alaba.ai,Block,AI Domain Block,alaba.ai,Informational
 Domain,featherless.ai,Block,AI Domain Block,featherless.ai,Informational
 Domain,filmpitch.ai,Block,AI Domain Block,filmpitch.ai,Informational
+Domain,garage-gpt.ch,Block,AI Domain Block,garage-gpt.ch,Informational
 Domain,h2o.ai,Block,AI Domain Block,h2o.ai,Informational
 Domain,kindredmind.care,Block,AI Domain Block,kindredmind.care,Informational
 Domain,myclaw.ai,Block,AI Domain Block,myclaw.ai,Informational
