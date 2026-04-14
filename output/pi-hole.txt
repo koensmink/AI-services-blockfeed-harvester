@@ -1,7 +1,8 @@
 alaba.ai
+bluor.ai
 featherless.ai
 filmpitch.ai
-garage-gpt.ch
+floto.ai
 h2o.ai
 kindredmind.care
 myclaw.ai
@@ -10,9 +11,11 @@ opensourceaihub.ai
 orbitmeet.ai
 qvery.ai
 remio.ai
+salesworx.ai
 storypitch.ai
-syntopia.ai
+storyzee.com
 tendem.ai
 tokenhot.ai
+trytenki.ai
 vocaiq.ai
 voxdeck.ai
