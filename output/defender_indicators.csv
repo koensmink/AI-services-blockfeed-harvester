@@ -1,19 +1,15 @@
 IndicatorType,IndicatorValue,Action,Title,Description,Severity
-Domain,agentid.live,Block,AI Domain Block,agentid.live,Informational
 Domain,alaba.ai,Block,AI Domain Block,alaba.ai,Informational
 Domain,bluor.ai,Block,AI Domain Block,bluor.ai,Informational
 Domain,bookbud.ai,Block,AI Domain Block,bookbud.ai,Informational
 Domain,chatcomparison.ai,Block,AI Domain Block,chatcomparison.ai,Informational
 Domain,develophealth.ai,Block,AI Domain Block,develophealth.ai,Informational
 Domain,floto.ai,Block,AI Domain Block,floto.ai,Informational
-Domain,garage-gpt.ch,Block,AI Domain Block,garage-gpt.ch,Informational
 Domain,h2o.ai,Block,AI Domain Block,h2o.ai,Informational
 Domain,linkedgrow.ai,Block,AI Domain Block,linkedgrow.ai,Informational
 Domain,nohow.ai,Block,AI Domain Block,nohow.ai,Informational
 Domain,notis.ai,Block,AI Domain Block,notis.ai,Informational
-Domain,opensourceaihub.ai,Block,AI Domain Block,opensourceaihub.ai,Informational
 Domain,postfox.ai,Block,AI Domain Block,postfox.ai,Informational
-Domain,qvery.ai,Block,AI Domain Block,qvery.ai,Informational
 Domain,remio.ai,Block,AI Domain Block,remio.ai,Informational
 Domain,salesworx.ai,Block,AI Domain Block,salesworx.ai,Informational
 Domain,storyzee.com,Block,AI Domain Block,storyzee.com,Informational

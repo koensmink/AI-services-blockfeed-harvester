@@ -1,21 +1,17 @@
 $TTL 2h
 @   IN  SOA localhost. root.localhost. ( 1 1h 15m 30d 2h )
     IN  NS  localhost.
-agentid.live. IN CNAME .
 alaba.ai. IN CNAME .
 bluor.ai. IN CNAME .
 bookbud.ai. IN CNAME .
 chatcomparison.ai. IN CNAME .
 develophealth.ai. IN CNAME .
 floto.ai. IN CNAME .
-garage-gpt.ch. IN CNAME .
 h2o.ai. IN CNAME .
 linkedgrow.ai. IN CNAME .
 nohow.ai. IN CNAME .
 notis.ai. IN CNAME .
-opensourceaihub.ai. IN CNAME .
 postfox.ai. IN CNAME .
-qvery.ai. IN CNAME .
 remio.ai. IN CNAME .
 salesworx.ai. IN CNAME .
 storyzee.com. IN CNAME .
