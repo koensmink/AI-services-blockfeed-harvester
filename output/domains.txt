@@ -4,6 +4,7 @@ bioskepsis.ai
 daybreaker.ai
 h2o.ai
 halomate.ai
+heartmelody.ai
 makko.ai
 meetz.ai
 notis.ai
