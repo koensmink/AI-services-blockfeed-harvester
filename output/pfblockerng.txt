@@ -2,6 +2,7 @@ alaba.ai
 betula.ai
 bioskepsis.ai
 daybreaker.ai
+flipsnap.ai
 h2o.ai
 halomate.ai
 heartmelody.ai
