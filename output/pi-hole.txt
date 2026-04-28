@@ -3,14 +3,15 @@ betula.ai
 bioskepsis.ai
 daybreaker.ai
 flipsnap.ai
+geniloop.ai
 h2o.ai
 halomate.ai
 heartmelody.ai
-makko.ai
 meetz.ai
 notis.ai
 ofox.ai
 remio.ai
+seoforge.ai
 tendem.ai
 trytenki.ai
 usedalil.ai
