@@ -2,13 +2,14 @@ alaba.ai
 betula.ai
 bioskepsis.ai
 daybreaker.ai
+fireflies.ai
 flipsnap.ai
 geniloop.ai
 h2o.ai
 halomate.ai
 heartmelody.ai
 meetz.ai
-notis.ai
+mowgli.ai
 ofox.ai
 remio.ai
 seoforge.ai
